@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteBase /
+
+# Protect the htaccess file
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Protect routes.php
+<Files routes.php>
+Order Allow,Deny
+Deny from all
+</Files>
+
+DirectoryIndex index.php
+Options All -Indexes

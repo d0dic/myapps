@@ -1,0 +1,15 @@
+{
+    "name": "framework/test",
+    "description": "Tester package",
+    "type": "project",
+    "license": "FON",
+    "minimum-stability": "dev",
+    "autoload":{
+        "classmap": [
+            "assets",
+            "models",
+            "controllers"
+        ]
+    },
+    "require": {}
+}
