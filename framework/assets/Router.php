@@ -16,6 +16,15 @@ class Router
 {
     private $routes = [];
 
+
+    /**
+     * @param $name
+     * @return string
+     */
+    public static function create($name){
+        return "?route=$name";
+    }
+
     /**
      * @param $route
      * @param $controller
@@ -34,13 +43,10 @@ class Router
      */
     public function run()
     {
-        # dump($_REQUEST); die;
-
-        if (!isset($_REQUEST['route'])) {
-            die('Define some routes for start! :)');
+        $request = 'home';
+        if (isset($_REQUEST['route'])) {
+            $request = $_REQUEST['route'];
         }
-
-        $request = $_REQUEST['route'];
 
         if (array_key_exists($request, $this->routes)) {
 
