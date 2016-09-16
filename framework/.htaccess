@@ -7,11 +7,5 @@ Order Allow,Deny
 Deny from all
 </Files>
 
-# Protect routes.php
-<Files routes.php>
-Order Allow,Deny
-Deny from all
-</Files>
-
 DirectoryIndex index.php
 Options All -Indexes

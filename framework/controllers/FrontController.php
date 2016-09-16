@@ -88,6 +88,23 @@ class FrontController extends BaseController
             return $this->redirect('profile');
         }
 
+        if (Session::getInstance()->loginUser($this->testUser())) {
+            return $this->render('front/profile', [
+                'user' => Session::getInstance()->userIdentity()
+            ]);
+        }
+
+//        dump(Session::getInstance()->userIdentity());
+//        dump($_SESSION); die;
+
+        return $this->redirect('home');
+    }
+
+    /**
+     * @return User
+     */
+    private function testUser()
+    {
         $user = new User();
         $user->id = 100;
         $user->role = 'user';
@@ -98,15 +115,6 @@ class FrontController extends BaseController
         $user->password = 'test.123';
         $user->created = time();
 
-        if (Session::getInstance()->loginUser($user)) {
-            return $this->render('front/profile', [
-                'user' => Session::getInstance()->userIdentity()
-            ]);
-        }
-
-//        dump(Session::getInstance()->userIdentity());
-//        dump($_SESSION); die;
-
-        return $this->redirect('home');
+        return $user;
     }
 }
