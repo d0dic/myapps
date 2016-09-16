@@ -14,6 +14,7 @@ return array(
     'SMTP' => $vendorDir . '/phpmailer/phpmailer/class.smtp.php',
     'app\\assets\\Database' => $baseDir . '/assets/Database.php',
     'app\\assets\\Identity' => $baseDir . '/assets/Identity.php',
+    'app\\assets\\Mailer' => $baseDir . '/assets/Mailer.php',
     'app\\assets\\Router' => $baseDir . '/assets/Router.php',
     'app\\assets\\Session' => $baseDir . '/assets/Session.php',
     'app\\controllers\\BaseController' => $baseDir . '/controllers/BaseController.php',

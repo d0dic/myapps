@@ -15,6 +15,7 @@ class ComposerStaticInit3cbe0d651c0bb58844e860b67d3bdcaa
         'SMTP' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.smtp.php',
         'app\\assets\\Database' => __DIR__ . '/../..' . '/assets/Database.php',
         'app\\assets\\Identity' => __DIR__ . '/../..' . '/assets/Identity.php',
+        'app\\assets\\Mailer' => __DIR__ . '/../..' . '/assets/Mailer.php',
         'app\\assets\\Router' => __DIR__ . '/../..' . '/assets/Router.php',
         'app\\assets\\Session' => __DIR__ . '/../..' . '/assets/Session.php',
         'app\\controllers\\BaseController' => __DIR__ . '/../..' . '/controllers/BaseController.php',
