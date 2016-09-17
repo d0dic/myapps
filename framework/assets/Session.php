@@ -14,8 +14,6 @@ namespace app\assets;
  */
 class Session
 {
-    private static $user;
-    private static $params = [];
     private static $instance;
 
     /**
