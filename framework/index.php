@@ -6,7 +6,12 @@
  * Time: 5:58 PM
  */
 
-require_once 'config/params.php';
+$GLOBALS['app'] = [
+    'name' => 'Framework',
+    'params' => false,
+];
+
+app()['params'] = require_once 'config/params.php';
 
 require_once __DIR__.'/vendor/autoload.php';
 
@@ -14,5 +19,9 @@ require_once 'config/routes.php';
 
 function dump($data){
     echo '<pre>'; var_dump($data);
+}
+
+function app(){
+    return $GLOBALS['app'];
 }
 

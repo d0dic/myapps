@@ -7,8 +7,8 @@
  */
 
 return [
-    'user' => 'root',
-    'pass' => 'root',
     'dbname' => 'test',
-    'server' => 'localhost'
+    'server' => 'localhost',
+    'username' => 'root',
+    'password' => 'root'
 ];

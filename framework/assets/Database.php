@@ -14,22 +14,50 @@ namespace app\assets;
  */
 class Database
 {
-    private static $connection;
+    private $host;
+    private $dbname;
+    private $username;
+    private $password;
+    public $connection;
 
-    private function __clone(){}
+    private static $instance;
 
-    private function __construct(){}
+    private function __construct(){
+        $this->initParams();
+    }
 
-    public static function getConnection(){
+    /**
+     * Initialize DB Connection params
+     */
+    private function initParams(){
 
-        if (self::$connection == null) {
-            self::$connection = new \PDO(
-                "mysql:host=localhost;dbname=test", 'root', 'root');
-            // set the PDO error mode to exception
-            self::$connection->setAttribute(
-                \PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
+        $this->host = app()['params']['db']['host'];
+        $this->dbname = app()['params']['db']['dbname'];
+        $this->username = app()['params']['db']['username'];
+        $this->password = app()['params']['db']['password'];
+
+        $this->setConnection();
+    }
+
+    /**
+     * Get DB Connection
+     */
+    private function setConnection(){
+        $this->connection = new \PDO(
+            "mysql:host=$this->host;dbname=$this->dbname",
+            $this->username, $this->password);
+
+        // set the PDO error mode to exception
+        $this->connection->setAttribute(
+            \PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
+    }
+
+    public static function getInstance(){
+
+        if (self::$instance == null) {
+                self::$instance = new Database();
         }
 
-        return self::$connection;
+        return self::$instance;
     }
 }

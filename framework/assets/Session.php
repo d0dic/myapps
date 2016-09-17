@@ -59,7 +59,12 @@ class Session
      * @return bool
      */
     public function loginUser(Identity $user){
-        $_SESSION['userIdentity'] = serialize($user);
+        try{
+            $_SESSION['userIdentity'] = serialize($user);
+        } catch (\Exception $exc){
+            die('Login failed: '.$exc->getMessage());
+        }
+
         return true;
     }
 

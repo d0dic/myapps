@@ -17,22 +17,12 @@ use app\assets\Database;
  */
 abstract class BaseModel
 {
-    protected $db_conn;
-
-    /**
-     * Database connection setup
-     */
-    private function init(){
-        $this->db_conn =
-            Database::getConnection();
-    }
+    private $db_conn;
 
     /**
      * Database initialization
      */
-    public function BaseModel(){
-        $this->init();
-    }
+    public function __construct(){}
 
     /**
      * @return mixed
@@ -84,5 +74,20 @@ abstract class BaseModel
             }
         }
         return true;
+    }
+
+    /**
+     * Database connection setup
+     */
+    private function setConnection(){
+        $this->db_conn =
+            Database::getInstance()->connection;
+    }
+
+    /**
+     * Execute CRUD operation
+     */
+    private function execute(){
+        $this->setConnection();
     }
 }
