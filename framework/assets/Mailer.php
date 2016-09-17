@@ -16,14 +16,19 @@ use PHPMailer;
  */
 class Mailer
 {
+    private $host;
+    private $port;
+    private $username;
+    private $password;
+
     private $mailer;
     private static $instance;
 
     /**
-     * Mailer constructor
+     * Mailer constructor.
      */
     private function __construct(){
-        $this->init();
+        $this->setParams();
     }
 
     /**
@@ -40,18 +45,34 @@ class Mailer
     }
 
     /**
+     * Set Mailer parameters
+     */
+    private function setParams(){
+        $this->host = app()['params']['mail']['host'];
+        $this->port = app()['params']['mail']['port'];
+        $this->username = app()['params']['mail']['username'];
+        $this->password = app()['params']['mail']['password'];
+
+        $this->setMailer();
+    }
+
+    /**
      * Instantiating PHPMailer
      */
-    private function init(){
+    private function setMailer(){
 
         $this->mailer = new PHPMailer();
+
         $this->mailer->isSMTP();                    // Set mailer to use SMTP
+        # $this->mailer->SMTPDebug = 3;             // Set mailer debug on
         $this->mailer->SMTPAuth = true;             // Enable SMTP authentication
-        $this->mailer->Host = 'smtp.gmail.com';     // Specify main and backup SMTP servers
-        $this->mailer->Username = 'epostar011';     // SMTP username
-        $this->mailer->Password = 'lozinka123';     // SMTP password
-        $this->mailer->SMTPSecure = 'tls';          // Enable TLS encryption, `ssl` also accepted
-        $this->mailer->Port = 587;
+
+        $this->mailer->Host = $this->host;          // Specify main and backup SMTP servers
+        $this->mailer->Username = $this->username;  // SMTP username
+        $this->mailer->Password = $this->password;  // SMTP password
+        $this->mailer->Port = $this->port;          // Server port
+        $this->mailer->SMTPSecure = 'tls';          // Enable TLS encryption,
+                                                    // `ssl` also accepted
     }
 
     /**
@@ -86,7 +107,7 @@ class Mailer
         if (!$this->mailer->send()) {
             return 'Mailer Error: ' . $this->mailer->ErrorInfo;
         } else {
-            return 'Message has been sent';
+            return 'Message has been sent successfully!';
         }
     }
 }

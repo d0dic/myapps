@@ -16,6 +16,10 @@ class Router
 {
     private $routes = [];
 
+    /**
+     * Router constructor.
+     */
+    public function __construct(){}
 
     /**
      * @param $name

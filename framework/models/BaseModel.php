@@ -20,7 +20,7 @@ abstract class BaseModel
     private $db_conn;
 
     /**
-     * Database initialization
+     * BaseModel constructor.
      */
     public function __construct(){}
 

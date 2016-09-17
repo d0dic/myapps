@@ -7,7 +7,8 @@
  */
 
 return [
-    'username' => '',
-    'password' => '',
-    'provider' => ''
+    'username' => 'epostar011',
+    'password' => 'lozinka123',
+    'host' => 'smtp.gmail.com',
+    'port' => 587,
 ];

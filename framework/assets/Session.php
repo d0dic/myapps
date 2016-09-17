@@ -17,7 +17,7 @@ class Session
     private static $instance;
 
     /**
-     * Disable instantiation
+     * Session constructor.
      */
     private function __construct(){
         $this->init();

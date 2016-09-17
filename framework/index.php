@@ -8,10 +8,8 @@
 
 $GLOBALS['app'] = [
     'name' => 'Framework',
-    'params' => false,
+    'params' => require_once 'config/params.php',
 ];
-
-app()['params'] = require_once 'config/params.php';
 
 require_once __DIR__.'/vendor/autoload.php';
 
