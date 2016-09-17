@@ -8,6 +8,7 @@
 
 namespace app\controllers;
 
+use app\assets\Mailer;
 use app\assets\Session;
 use app\models\User;
 
@@ -98,6 +99,18 @@ class FrontController extends BaseController
 //        dump($_SESSION); die;
 
         return $this->redirect('home');
+    }
+
+    public function actionSendmail(){
+
+        $to = ['email' => 'milos_dodic@live.com', 'name' => 'Milos Dodic'];
+        $from = ['email' => 'epostar011@gmail.com', 'name' => 'E-Postar'];
+        $message = 'This is a test message for personal framework!';
+
+        $mailer = Mailer::getInstance();
+        $mailer->create(
+            'Test', $message, $from, $to, null, false);
+        echo $mailer->send();
     }
 
     /**

@@ -21,7 +21,7 @@ class Session
     /**
      * Disable instantiation
      */
-    private function Session(){
+    private function __construct(){
         $this->init();
     }
 
@@ -37,7 +37,6 @@ class Session
             self::$instance = new Session();
         }
 
-        self::$instance->init();
         return self::$instance;
     }
 

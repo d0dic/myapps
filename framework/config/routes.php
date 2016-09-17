@@ -14,5 +14,7 @@ $router->define(
     'logout', 'FrontController', 'actionLogout');
 $router->define(
     'profile', 'FrontController', 'actionProfile');
+$router->define(
+    'sendmail', 'FrontController', 'actionSendmail');
 
 $router->run();
