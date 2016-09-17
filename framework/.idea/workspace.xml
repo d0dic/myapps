@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83842ed2-57da-4738-921b-4c442a5735bc" name="Default" comment="framework phpmailer set">
+    <list default="true" id="83842ed2-57da-4738-921b-4c442a5735bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/Session.php" afterPath="$PROJECT_DIR$/assets/Session.php" />
     </list>
     <ignored path="framework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -278,7 +277,7 @@
       <workItem from="1474015111299" duration="11676000" />
       <workItem from="1474042890209" duration="1517000" />
       <workItem from="1474097196513" duration="4592000" />
-      <workItem from="1474124712959" duration="149000" />
+      <workItem from="1474124712959" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="framework url generator addon">
       <created>1474043195174</created>
@@ -315,11 +314,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474101799750</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="framework session code refactoring">
+      <created>1474124879403</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1474124879403</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34496000" />
+    <option name="totallyTimeSpent" value="35119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -361,7 +367,8 @@
     <MESSAGE value="framework phpmailer addon" />
     <MESSAGE value="framework phpmailer setup" />
     <MESSAGE value="framework phpmailer set" />
-    <option name="LAST_COMMIT_MESSAGE" value="framework phpmailer set" />
+    <MESSAGE value="framework session code refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="framework session code refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
