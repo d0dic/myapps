@@ -7,15 +7,18 @@ namespace Composer\Autoload;
 class ComposerStaticInitf450d53b9a2f142d881371a8d831a56a
 {
     public static $classMap = array (
+        'patterns\\adapter\\EuroPaymentAdapter' => __DIR__ . '/../..' . '/adapter/EuroPaymentAdapter.php',
+        'patterns\\adapter\\EuroPaymentApi' => __DIR__ . '/../..' . '/adapter/EuroPaymentApi.php',
+        'patterns\\adapter\\GlobalPaymentApi' => __DIR__ . '/../..' . '/adapter/GlobalPaymentApi.php',
+        'patterns\\adapter\\PaymentProvider' => __DIR__ . '/../..' . '/adapter/PaymentProvider.php',
+        'patterns\\adapter\\SwissPayment' => __DIR__ . '/../..' . '/adapter/SwissPayment.php',
         'patterns\\factory\\AppGenerator' => __DIR__ . '/../..' . '/factory/AppGenerator.php',
         'patterns\\factory\\Application' => __DIR__ . '/../..' . '/factory/Application.php',
         'patterns\\factory\\Photocontest' => __DIR__ . '/../..' . '/factory/Photocontest.php',
         'patterns\\factory\\Puzzlematch' => __DIR__ . '/../..' . '/factory/Puzzlematch.php',
         'patterns\\factory\\Questionnaire' => __DIR__ . '/../..' . '/factory/Questionnaire.php',
-        'patterns\\observer\\Channel' => __DIR__ . '/../..' . '/observer/Channel.php',
         'patterns\\observer\\Listener' => __DIR__ . '/../..' . '/observer/Listener.php',
         'patterns\\observer\\NewsChannel' => __DIR__ . '/../..' . '/observer/NewsChannel.php',
-        'patterns\\observer\\NewsPublisher' => __DIR__ . '/../..' . '/observer/NewsPublisher.php',
         'patterns\\observer\\RadioListener' => __DIR__ . '/../..' . '/observer/RadioListener.php',
     );
 

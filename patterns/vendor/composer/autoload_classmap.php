@@ -6,14 +6,17 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'patterns\\adapter\\EuroPaymentAdapter' => $baseDir . '/adapter/EuroPaymentAdapter.php',
+    'patterns\\adapter\\EuroPaymentApi' => $baseDir . '/adapter/EuroPaymentApi.php',
+    'patterns\\adapter\\GlobalPaymentApi' => $baseDir . '/adapter/GlobalPaymentApi.php',
+    'patterns\\adapter\\PaymentProvider' => $baseDir . '/adapter/PaymentProvider.php',
+    'patterns\\adapter\\SwissPayment' => $baseDir . '/adapter/SwissPayment.php',
     'patterns\\factory\\AppGenerator' => $baseDir . '/factory/AppGenerator.php',
     'patterns\\factory\\Application' => $baseDir . '/factory/Application.php',
     'patterns\\factory\\Photocontest' => $baseDir . '/factory/Photocontest.php',
     'patterns\\factory\\Puzzlematch' => $baseDir . '/factory/Puzzlematch.php',
     'patterns\\factory\\Questionnaire' => $baseDir . '/factory/Questionnaire.php',
-    'patterns\\observer\\Channel' => $baseDir . '/observer/Channel.php',
     'patterns\\observer\\Listener' => $baseDir . '/observer/Listener.php',
     'patterns\\observer\\NewsChannel' => $baseDir . '/observer/NewsChannel.php',
-    'patterns\\observer\\NewsPublisher' => $baseDir . '/observer/NewsPublisher.php',
     'patterns\\observer\\RadioListener' => $baseDir . '/observer/RadioListener.php',
 );
