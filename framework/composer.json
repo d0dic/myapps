@@ -1,6 +1,6 @@
 {
-    "name": "framework/test",
-    "description": "Tester package",
+    "name": "framework",
+    "description": "PHP Framework Test",
     "type": "project",
     "license": "FON",
     "minimum-stability": "dev",
