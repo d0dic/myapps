@@ -9,10 +9,10 @@
 namespace app\classes;
 
 /**
- * Class AppFactory
+ * Class FbAppFactory
  * @package app\classes
  */
-class AppFactory
+class FbAppFactory
 {
     /**
      * @var AppBuilder
@@ -29,7 +29,7 @@ class AppFactory
 
     /**
      * @param string $type
-     * @return Application
+     * @return FbApplication
      * @throws \Exception
      */
     public function create($type)
@@ -48,7 +48,7 @@ class AppFactory
                 break;
 
             default:
-                throw new \Exception('Application type not implemented!');
+                $this->setBuilder(new DefaultBuilder());
         }
 
         $this->builder->createApp();

@@ -12,7 +12,7 @@ namespace app\classes;
  * Class Application
  * @package app\classes
  */
-class Application
+abstract class Application
 {
     /**
      * @var string $root
@@ -22,12 +22,17 @@ class Application
      * @var array $views
      * @var string $core
      */
-    private $root;
-    private $models;
-    private $controllers;
-    private $migrations;
-    private $views;
-    private $core;
+    protected $root;
+    protected $models;
+    protected $controllers;
+    protected $migrations;
+    protected $views;
+    protected $core;
+
+    /**
+     * Setting initial values
+     */
+    abstract function init();
 
     /**
      * Application constructor.
@@ -35,8 +40,9 @@ class Application
      */
     public function __construct($root)
     {
-        $this->core = 'Yii 2.0 PHP Framework';
+        $this->core = 'yii2';
         $this->root = $root;
+        $this->init();
     }
 
     /**
@@ -44,7 +50,7 @@ class Application
      */
     public function setModels($models)
     {
-        $this->models = $models;
+        $this->models = array_merge($this->models, $models);
     }
 
     /**
@@ -52,7 +58,8 @@ class Application
      */
     public function setControllers($controllers)
     {
-        $this->controllers = $controllers;
+        $this->controllers =
+            array_merge($this->controllers, $controllers);
     }
 
     /**
@@ -60,7 +67,8 @@ class Application
      */
     public function setMigrations($migrations)
     {
-        $this->migrations = $migrations;
+        $this->migrations =
+            array_merge($this->migrations, $migrations);
     }
 
     /**
@@ -68,15 +76,7 @@ class Application
      */
     public function setViews($views)
     {
-        $this->views = $views;
-    }
-
-    /**
-     * @param $destination
-     */
-    public function deploy($destination){
-        echo "Application will be deployed to: "
-            .__DIR__."../../$destination";
+        $this->views = array_merge($this->views, $views);
     }
 
 }

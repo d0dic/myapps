@@ -8,10 +8,20 @@
 
 require_once 'vendor/autoload.php';
 
-use app\classes\AppFactory;
+use app\classes\FbAppFactory;
+use app\classes\FbAppDeployer;
 
-$appFactory = new AppFactory();
-$application = $appFactory->create('query');
-$application->deploy('query');
+$appName = 'test_app';
+$fbAppFactory = new FbAppFactory();
+$fbApplication = $fbAppFactory->create('query');
 
-echo '<pre>'; var_dump($application);
+$fbApplication->fbId = '246250632436633';
+$fbApplication->fbSecret = 'fd8cfcd481455ca12f86792cfc323c6e';
+$fbApplication->fbIdTest = '246251089103254';
+$fbApplication->fbSecretTest = '79192a9a2555ff990dc024565248c8fa';
+$fbApplication->fbNamespace = 'test_app';
+$fbApplication->fbTestNamespace = 'test_app_loc';
+
+$appDeployer = new FbAppDeployer($fbApplication);
+$appDeployer->deploy('../'.__DIR__);
+

@@ -16,13 +16,13 @@ class QuestionnaireBuilder extends AppBuilder
 {
     function createApp()
     {
-        $this->app = new Application('query');
+        $this->app = new FbApplication('query');
     }
 
     function buildModels()
     {
         $this->app->setModels([
-            'Question', 'Answer', 'Reply', 'Game'
+            'Form', 'Question', 'Answer', 'Reply'
         ]);
     }
 
