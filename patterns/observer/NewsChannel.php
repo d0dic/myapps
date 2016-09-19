@@ -14,6 +14,9 @@ namespace patterns\observer;
  */
 class NewsChannel
 {
+    /**
+     * @var array
+     */
     private $listeners;
 
     /**

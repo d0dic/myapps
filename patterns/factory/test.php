@@ -11,8 +11,10 @@ use patterns\factory\AppGenerator;
 $appGenerator = new AppGenerator();
 
 $puzzle = $appGenerator->make('puzzle');
-$puzzle = $appGenerator->make('gallery');
-$puzzle = $appGenerator->make('query');
+$gallery = $appGenerator->make('gallery');
+$query = $appGenerator->make('query');
+
+$puzzle->run();
 
 structurePreview(__DIR__);
 

@@ -26,4 +26,9 @@ abstract class Application
      * @return mixed
      */
     abstract function create();
+
+    /**
+     * @return mixed
+     */
+    abstract function run();
 }

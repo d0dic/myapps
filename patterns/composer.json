@@ -1,6 +1,7 @@
 {
     "name": "milos/patterns",
     "description": "PHP Design Patterns",
+    "minimum-stability": "dev",
     "type": "project",
     "license": "FON",
     "authors": [
@@ -9,7 +10,6 @@
             "email": "milos_dodic@live.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload":{
         "classmap": [
             "adapter",

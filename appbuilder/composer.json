@@ -1,0 +1,21 @@
+{
+  "name": "milos/appbuilder",
+  "description": "Facebook applications builder",
+  "minimum-stability": "dev",
+  "type": "project",
+  "license": "FON",
+  "authors": [
+    {
+      "name": "Milos Dodic",
+      "email": "milos_dodic@live.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "classes"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "^5.2"
+  }
+}

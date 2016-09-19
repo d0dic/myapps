@@ -15,7 +15,7 @@ namespace patterns\observer;
 interface Listener
 {
     /**
-     * @param $info
+     * @param $info string
      * @return mixed
      */
     public function notify($info);

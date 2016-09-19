@@ -11,14 +11,23 @@ namespace patterns\adapter;
 
 class PaymentProvider
 {
+    /**
+     * @var GlobalPaymentApi
+     */
     private $paymentApi;
 
-    public function __construct(
-        GlobalPaymentApi $paymentApi)
+    /**
+     * PaymentProvider constructor.
+     * @param GlobalPaymentApi $paymentApi
+     */
+    public function __construct(GlobalPaymentApi $paymentApi)
     {
         $this->paymentApi = $paymentApi;
     }
 
+    /**
+     * @return string
+     */
     public function checkData(){
         $data = [
             'region' => $this->paymentApi->getRegion(),

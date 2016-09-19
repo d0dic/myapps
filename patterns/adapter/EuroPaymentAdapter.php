@@ -13,14 +13,16 @@ namespace patterns\adapter;
  */
 class EuroPaymentAdapter implements GlobalPaymentApi
 {
+    /**
+     * @var EuroPaymentApi
+     */
     private $euroPaymentApi;
 
     /**
      * EuroPaymentAdapter constructor.
      * @param EuroPaymentApi $euroPaymentApi
      */
-    public function __construct(
-        EuroPaymentApi $euroPaymentApi)
+    public function __construct(EuroPaymentApi $euroPaymentApi)
     {
         $this->euroPaymentApi = $euroPaymentApi;
     }

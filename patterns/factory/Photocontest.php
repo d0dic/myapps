@@ -18,4 +18,12 @@ class Photocontest extends Application
     {
         echo get_class($this).' application created!'.PHP_EOL;
     }
+
+    /**
+     * @return mixed
+     */
+    function run()
+    {
+        echo get_class($this).' application is running!'.PHP_EOL;
+    }
 }
