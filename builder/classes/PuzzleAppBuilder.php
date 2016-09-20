@@ -12,43 +12,36 @@ namespace app\classes;
 class PuzzleAppBuilder extends FbAppBuilder
 {
 
-    /**
-     * @return mixed
-     */
-    function buildModels()
-    {
-        // TODO: Implement buildModels() method.
-    }
-
-    /**
-     * @return mixed
-     */
-    function buildControllers()
-    {
-        // TODO: Implement buildControllers() method.
-    }
-
-    /**
-     * @return mixed
-     */
-    function buildMigrations()
-    {
-        // TODO: Implement buildMigrations() method.
-    }
-
-    /**
-     * @return mixed
-     */
-    function buildViews()
-    {
-        // TODO: Implement buildViews() method.
-    }
-
-    /**
-     * @return mixed
-     */
     function createApp()
     {
-        // TODO: Implement createApp() method.
+        $this->app = new FbApplication('puzzle');
+    }
+
+    function buildModels()
+    {
+        $this->app->setModels([
+            'Game', 'Topscore', 'Puzzle', 'PuzzleSearch', 'Piece'
+        ]);
+    }
+
+    function buildControllers()
+    {
+        $this->app->setControllers([
+            'PuzzleController'
+        ]);
+    }
+
+    function buildMigrations()
+    {
+        $this->app->setMigrations([
+            'piece', 'puzzle', 'game', 'topscore'
+        ]);
+    }
+
+    function buildViews()
+    {
+        $this->app->setViews([
+            'puzzle'
+        ]);
     }
 }

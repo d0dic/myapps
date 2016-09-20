@@ -1,2 +1,0 @@
-# myapps
-Testing projects

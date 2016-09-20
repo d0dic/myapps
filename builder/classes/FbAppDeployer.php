@@ -196,7 +196,8 @@ if ($host == \'www.codeit.loc\') {
         \'fb_app_secret\' => \'' . $this->application->fbSecretTest . '\',
 
         // facebook login redirect params
-        \'afterLogin_url\'  => "https://apps.facebook.com/' . $app_root . '_loc/site/home"
+        \'afterLogin_url\'  => "https://apps.facebook.com/'
+            . $this->application->fbTestNamespace . '/site/home"
     ]);
 } else {
     $params = array_merge($params,[
@@ -206,7 +207,8 @@ if ($host == \'www.codeit.loc\') {
         \'fb_app_secret\' => \'' . $this->application->fbSecret . '\',
 
         // facebook login redirect params
-        \'afterLogin_url\'  => "https://apps.facebook.com/' . $app_root . '/site/home"
+        \'afterLogin_url\'  => "https://apps.facebook.com/'
+            . $this->application->fbNamespace . '/site/home"
     ]);
 }
 

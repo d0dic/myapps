@@ -12,43 +12,36 @@ namespace app\classes;
 class GalleryAppBuilder extends FbAppBuilder
 {
 
-    /**
-     * @return mixed
-     */
-    function buildModels()
-    {
-        // TODO: Implement buildModels() method.
-    }
-
-    /**
-     * @return mixed
-     */
-    function buildControllers()
-    {
-        // TODO: Implement buildControllers() method.
-    }
-
-    /**
-     * @return mixed
-     */
-    function buildMigrations()
-    {
-        // TODO: Implement buildMigrations() method.
-    }
-
-    /**
-     * @return mixed
-     */
-    function buildViews()
-    {
-        // TODO: Implement buildViews() method.
-    }
-
-    /**
-     * @return mixed
-     */
     function createApp()
     {
-        // TODO: Implement createApp() method.
+        $this->app = new FbApplication('gallery');
+    }
+
+    function buildModels()
+    {
+        $this->app->setModels([
+            'Poster', 'PosterSearch', 'Like'
+        ]);
+    }
+
+    function buildControllers()
+    {
+        $this->app->setControllers([
+            'PosterController'
+        ]);
+    }
+
+    function buildMigrations()
+    {
+        $this->app->setMigrations([
+            'poster', 'like'
+        ]);
+    }
+
+    function buildViews()
+    {
+        $this->app->setViews([
+            'poster'
+        ]);
     }
 }

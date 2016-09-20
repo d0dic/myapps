@@ -36,7 +36,7 @@ class QueryAppBuilder extends FbAppBuilder
     function buildMigrations()
     {
         $this->app->setMigrations([
-            'question', 'answer', 'game', 'reply'
+            'question', 'answer', 'form', 'reply'
         ]);
     }
 
