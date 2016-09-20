@@ -44,7 +44,6 @@ class AppGenerator
     {
         $this->application =
             $this->appFactory->create($type);
-
     }
 
     /**
@@ -61,7 +60,7 @@ class AppGenerator
         $this->application->fbTestNamespace = $post['fbTestNamespace'];
 
         $this->application->appDatabase = $post['appDatabase'];
-        $this->application->appFolder = $post['appFolder'];
+        $this->application->appFolder = $post['appDatabase'];
         $this->application->appName = $post['appName'];
 
         $this->appDeployer =

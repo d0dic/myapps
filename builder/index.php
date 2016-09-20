@@ -88,7 +88,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="fbNamespaceTest"
+                                    <input type="text" class="form-control" name="$fbTestNamespace"
                                            placeholder="FB Namespace TEST" required>
                                 </div>
                             </div>

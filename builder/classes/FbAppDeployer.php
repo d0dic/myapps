@@ -77,7 +77,7 @@ class FbAppDeployer extends AppDeployer
 // TODO Enter the necessary db params
 $host = $_SERVER[\'HTTP_HOST\'];
 
-if ($host == \'www.codeit.loc\') {
+if ($host == \'www.myapps.loc\') {
     return [
         \'class\' => \'yii\db\Connection\',
         \'dsn\' => \'mysql:host=localhost;dbname=' . $db_name . '\',
@@ -188,7 +188,7 @@ $params = [
 ];
 
 // TODO Enter the necessary fb params
-if ($host == \'www.codeit.loc\') {
+if ($host == \'www.myapps.loc\') {
     $params = array_merge($params,[
 
         // facebook test app params
