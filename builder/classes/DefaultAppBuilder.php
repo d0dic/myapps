@@ -3,14 +3,25 @@
  * Created by PhpStorm.
  * User: milos
  * Date: 19-Sep-16
- * Time: 2:42 PM
+ * Time: 7:02 PM
  */
 
 namespace app\classes;
 
-
-class PuzzleMatchBuilder extends AppBuilder
+/**
+ * Class DefaultBuilder
+ * @package app\classes
+ */
+class DefaultAppBuilder extends FbAppBuilder
 {
+
+    /**
+     * @return mixed
+     */
+    function createApp()
+    {
+        $this->app = new FbApplication('default');
+    }
 
     /**
      * @return mixed
@@ -42,13 +53,5 @@ class PuzzleMatchBuilder extends AppBuilder
     function buildViews()
     {
         // TODO: Implement buildViews() method.
-    }
-
-    /**
-     * @return mixed
-     */
-    function createApp()
-    {
-        // TODO: Implement createApp() method.
     }
 }

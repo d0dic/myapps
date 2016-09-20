@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: milos
  * Date: 19-Sep-16
- * Time: 10:44 PM
+ * Time: 8:41 PM
  */
 
 namespace app\classes;
@@ -11,63 +11,55 @@ namespace app\classes;
 /**
  * Class FbAppDeployer
  * @package app\classes
- *
- * @property FbApplication $application
  */
 class FbAppDeployer extends AppDeployer
 {
     /**
+     * FbAppDeployer constructor.
+     * @param FbApplication $application
+     */
+    public function __construct(FbApplication $application)
+    {
+        $this->application = $application;
+    }
+
+    /**
+     * @param string $destination
+     * @return boolean
+     */
+    public function deploy($destination)
+    {
+        $destination .=
+            $this->application->appFolder;
+
+        $this->deployCore($destination);
+        $this->deployConfig($destination);
+
+        $this->deployModels($destination);
+        $this->deployMigrations($destination);
+        $this->deployControllers($destination);
+        $this->deployViews($destination);
+
+        $this->createDatabase(
+            $this->application->appDatabase);
+
+        return true;
+    }
+    
+    /**
      * @param string $destination
      */
-    function deploy($destination)
+    private function deployConfig($destination)
     {
-        echo '<pre>'; var_dump($this->application);
-    }
+        $destination .= '/config/';
 
-    /**
-     * @param string $name
-     */
-    private function createDatabase($name)
-    {
-        $dbcon = new \PDO("mysql:host=localhost;", 'root', 'root');
-        $dbcon->exec("CREATE DATABASE $name DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci");
-    }
+        $this->createDbFile($destination.'db.php',
+            $this->application->appDatabase);
+        $this->createConsoleFile($destination.'console.php',
+            $this->application->appDatabase);
+        $this->createParamsFile($destination.'params.php',
+            $this->application->appName, $this->application->appFolder);
 
-    /**
-     * @param string $src
-     * @param string $dst
-     * @param string $db_name
-     * @param string $app_name
-     * @param string $app_root
-     */
-    private function copyFiles($src, $dst, $db_name, $app_name, $app_root)
-    {
-        $dir = opendir($src);
-        @mkdir($dst);
-        while (false !== ($file = readdir($dir))) {
-            if (($file != '.') && ($file != '..')) {
-                if (is_dir($src . '/' . $file)) {
-                    $this->copyFiles($src . '/' . $file, $dst . '/' . $file, $db_name, $app_name, $app_root);
-                } else {
-
-                    switch ($file) {
-                        case 'db.php':
-                            $this->createDbFile($dst . '/' . $file, $db_name);
-                            break;
-                        case 'console.php':
-                            $this->createConsoleFile($dst . '/' . $file, $db_name);
-                            break;
-                        case 'params.php':
-                            $this->createParamsFile($dst . '/' . $file, $app_name, $app_root);
-                            break;
-                        default:
-                            copy($src . '/' . $file, $dst . '/' . $file);
-                            break;
-                    }
-                }
-            }
-        }
-        closedir($dir);
     }
 
     /**
@@ -200,8 +192,8 @@ if ($host == \'www.codeit.loc\') {
     $params = array_merge($params,[
 
         // facebook test app params
-        \'fb_app_id\'     => \'' . FB_ID_TEST . '\',
-        \'fb_app_secret\' => \'' . FB_SECRET_TEST . '\',
+        \'fb_app_id\'     => \'' . $this->application->fbIdTest . '\',
+        \'fb_app_secret\' => \'' . $this->application->fbSecretTest . '\',
 
         // facebook login redirect params
         \'afterLogin_url\'  => "https://apps.facebook.com/' . $app_root . '_loc/site/home"
@@ -210,8 +202,8 @@ if ($host == \'www.codeit.loc\') {
     $params = array_merge($params,[
 
         // facebook live app params
-        \'fb_app_id\'     => \'' . FB_ID . '\',
-        \'fb_app_secret\' => \'' . FB_SECRET . '\',
+        \'fb_app_id\'     => \'' . $this->application->fbId . '\',
+        \'fb_app_secret\' => \'' . $this->application->fbSecret . '\',
 
         // facebook login redirect params
         \'afterLogin_url\'  => "https://apps.facebook.com/' . $app_root . '/site/home"

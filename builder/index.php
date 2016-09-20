@@ -12,16 +12,23 @@ use app\classes\FbAppFactory;
 use app\classes\FbAppDeployer;
 
 $appName = 'test_app';
-$fbAppFactory = new FbAppFactory();
-$fbApplication = $fbAppFactory->create('query');
+$appFactory = new FbAppFactory();
+$fbApp = $appFactory->create('default');
 
-$fbApplication->fbId = '246250632436633';
-$fbApplication->fbSecret = 'fd8cfcd481455ca12f86792cfc323c6e';
-$fbApplication->fbIdTest = '246251089103254';
-$fbApplication->fbSecretTest = '79192a9a2555ff990dc024565248c8fa';
-$fbApplication->fbNamespace = 'test_app';
-$fbApplication->fbTestNamespace = 'test_app_loc';
+$fbApp->fbId = '246250632436633';
+$fbApp->fbSecret = 'fd8cfcd481455ca12f86792cfc323c6e';
+$fbApp->fbIdTest = '246251089103254';
+$fbApp->fbSecretTest = '79192a9a2555ff990dc024565248c8fa';
 
-$appDeployer = new FbAppDeployer($fbApplication);
-$appDeployer->deploy('../'.__DIR__);
+$fbApp->fbNamespace = 'test_app';
+$fbApp->fbTestNamespace = 'test_app_loc';
+
+$fbApp->appDatabase = 'test_app';
+$fbApp->appFolder = 'test_app';
+$fbApp->appName = 'Test App';
+
+$appDeployer = new FbAppDeployer($fbApp);
+if ($appDeployer->deploy('../')) {
+    echo 'Application successfully deployed!';
+}
 

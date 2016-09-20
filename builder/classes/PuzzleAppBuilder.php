@@ -3,13 +3,13 @@
  * Created by PhpStorm.
  * User: milos
  * Date: 19-Sep-16
- * Time: 2:46 PM
+ * Time: 2:42 PM
  */
 
 namespace app\classes;
 
 
-class PhotoContestBuilder extends AppBuilder
+class PuzzleAppBuilder extends FbAppBuilder
 {
 
     /**

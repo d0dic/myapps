@@ -9,18 +9,18 @@
 namespace app\classes;
 
 /**
- * Class AppBuilder
+ * Class FbAppBuilder
  * @package app\classes
  */
-abstract class AppBuilder
+abstract class FbAppBuilder
 {
     /**
-     * @var Application
+     * @var FbApplication
      */
     protected $app;
 
     /**
-     * @return Application
+     * @return FbApplication
      */
     public function getApp(){
         return $this->app;

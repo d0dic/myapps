@@ -3,25 +3,14 @@
  * Created by PhpStorm.
  * User: milos
  * Date: 19-Sep-16
- * Time: 7:02 PM
+ * Time: 2:46 PM
  */
 
 namespace app\classes;
 
-/**
- * Class DefaultBuilder
- * @package app\classes
- */
-class DefaultBuilder extends AppBuilder
-{
 
-    /**
-     * @return mixed
-     */
-    function createApp()
-    {
-        $this->app = new FbApplication('default');
-    }
+class GalleryAppBuilder extends FbAppBuilder
+{
 
     /**
      * @return mixed
@@ -53,5 +42,13 @@ class DefaultBuilder extends AppBuilder
     function buildViews()
     {
         // TODO: Implement buildViews() method.
+    }
+
+    /**
+     * @return mixed
+     */
+    function createApp()
+    {
+        // TODO: Implement createApp() method.
     }
 }

@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: milos
- * Date: 19-Sep-16
- * Time: 11:24 AM
+ * Date: 20-Sep-16
+ * Time: 2:43 PM
  */
 
 namespace app\classes;
@@ -20,14 +20,22 @@ abstract class Application
      * @var array $controllers
      * @var array $migrations
      * @var array $views
-     * @var string $core
      */
     protected $root;
     protected $models;
     protected $controllers;
     protected $migrations;
     protected $views;
-    protected $core;
+
+    /**
+     * FbApplication constructor.
+     * @param string $root
+     */
+    public function __construct($root)
+    {
+        $this->root = 'apps/'.$root;
+        $this->init();
+    }
 
     /**
      * Setting initial values
@@ -35,14 +43,11 @@ abstract class Application
     abstract function init();
 
     /**
-     * Application constructor.
-     * @param string $root
+     * @return mixed
      */
-    public function __construct($root)
+    public function getRoot()
     {
-        $this->core = 'yii2';
-        $this->root = $root;
-        $this->init();
+        return $this->root;
     }
 
     /**

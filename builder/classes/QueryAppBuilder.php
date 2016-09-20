@@ -12,7 +12,7 @@ namespace app\classes;
  * Class QuestionnaireBuilder
  * @package app\classes
  */
-class QuestionnaireBuilder extends AppBuilder
+class QueryAppBuilder extends FbAppBuilder
 {
     function createApp()
     {

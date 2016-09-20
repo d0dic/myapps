@@ -15,14 +15,14 @@ namespace app\classes;
 class FbAppFactory
 {
     /**
-     * @var AppBuilder
+     * @var FbAppBuilder
      */
     private $builder;
 
     /**
-     * @param AppBuilder $builder
+     * @param FbAppBuilder $builder
      */
-    private function setBuilder(AppBuilder $builder)
+    private function setBuilder(FbAppBuilder $builder)
     {
         $this->builder = $builder;
     }
@@ -36,19 +36,19 @@ class FbAppFactory
     {
         switch ($type) {
             case 'query':
-                $this->setBuilder(new QuestionnaireBuilder());
+                $this->setBuilder(new QueryAppBuilder());
                 break;
 
             case 'gallery':
-                $this->setBuilder(new PhotoContestBuilder());
+                $this->setBuilder(new GalleryAppBuilder());
                 break;
 
             case 'puzzle':
-                $this->setBuilder(new PuzzleMatchBuilder());
+                $this->setBuilder(new PuzzleAppBuilder());
                 break;
 
             default:
-                $this->setBuilder(new DefaultBuilder());
+                $this->setBuilder(new DefaultAppBuilder());
         }
 
         $this->builder->createApp();
