@@ -49,7 +49,7 @@
 
                         <div class="form-group has-error">
                             <input type="text" class="form-control" name="appName"
-                                   placeholder="Application Name" value="Default Application" readonly>
+                                   placeholder="Application Name" value="Query Application" readonly>
                         </div>
 
                         <div class="panel panel-danger">
@@ -122,10 +122,10 @@
                             </div>
                             <div class="panel-body">
                                 <label class="radio-inline">
-                                    <input type="radio" name="appType" value="default" checked> Basic App
+                                    <input type="radio" name="appType" value="default" disabled> Basic App
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="appType" value="query" disabled> Questionnaire
+                                    <input type="radio" name="appType" value="query" checked> Questionnaire
                                 </label>
                                 <label class="radio-inline">
                                     <input type="radio" name="appType" value="gallery" disabled> Photo Contest
