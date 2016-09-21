@@ -30,17 +30,17 @@ if (!in_array($_POST['appType'], $app_types)) {
     die('Application type not implemented!');
 }
 
-session_start();
-$host = $_SERVER['HTTP_HOST'];
-$appLink = $_POST['dbName'];
-
 $appGenerator = new AppGenerator();
 $appGenerator->build($_POST['appType']);
 
 $appGenerator->loadParams($_POST);
 
-if ($appGenerator->provide('../')) {
-    $_SESSION['app_link'] = "http://$host/$appLink";
+if ($appGenerator->provide(__DIR__.'/../')) {
+    session_start();
+    $folder = $_POST['dbName'];
+    $host = $_SERVER['HTTP_HOST'];
+
+    $_SESSION['app_link'] = "http://$host/$folder";
     header("Location: finish.php");
 } else {
     die('Application not generated!');
