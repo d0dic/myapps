@@ -59,9 +59,13 @@ class AppGenerator
         $this->application->fbNamespace = $post['fbNamespace'];
         $this->application->fbTestNamespace = $post['fbTestNamespace'];
 
-        $this->application->appDatabase = $post['appDatabase'];
-        $this->application->appFolder = $post['appDatabase'];
+        $this->application->appFolder = $post['dbName'];
         $this->application->appName = $post['appName'];
+
+        $this->application->dbHost = $post['dbHost'];
+        $this->application->dbUsername = $post['dbUsername'];
+        $this->application->dbPassword = $post['dbPassword'];
+        $this->application->dbName = $post['dbName'];
 
         $this->appDeployer =
             new FbAppDeployer($this->application);
@@ -69,10 +73,22 @@ class AppGenerator
 
     /**
      * @param string $destination
+     * @throws \Exception
      * @return boolean
      */
     public function provide($destination)
     {
-        return $this->appDeployer->deploy($destination);
+
+        if (!$this->appDeployer->deployDatabase()
+        ) {
+            throw new \Exception('Database not deployed to server!');
+        }
+
+        if (!$this->appDeployer->deployApplication($destination)) {
+            throw new \Exception('Application not deployed to server!');
+        }
+
+        return true;
+
     }
 }

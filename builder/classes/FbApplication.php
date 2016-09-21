@@ -18,7 +18,6 @@ namespace app\classes;
  * @property string $fbSecretTest
  * @property string $fbTestNamespace
  * @property string $fbNamespace
- * @property string $appDatabase
  * @property string $appFolder
  * @property string $appName
  */
@@ -30,7 +29,6 @@ class FbApplication extends Application
     public $fbSecretTest;
     public $fbTestNamespace;
     public $fbNamespace;
-    public $appDatabase;
     public $appFolder;
     public $appName;
 

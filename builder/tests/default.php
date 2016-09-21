@@ -58,22 +58,22 @@
 
                                 <div class="form-group has-error">
                                     <input type="text" class="form-control" name="dbName"
-                                           placeholder="Database Name" required>
+                                           placeholder="Database Name" value="test_app" required>
                                 </div>
 
                                 <div class="form-group has-error">
                                     <input type="text" class="form-control" name="dbHost"
-                                           placeholder="Database Host" required>
+                                           placeholder="Database Host" value="localhost" required>
                                 </div>
 
                                 <div class="form-group has-error">
                                     <input type="text" class="form-control" name="dbUsername"
-                                           placeholder="Database Username" required>
+                                           placeholder="Database Username" value="root" required>
                                 </div>
 
                                 <div class="form-group has-error">
                                     <input type="password" class="form-control" name="dbPassword"
-                                           placeholder="Database Password" required>
+                                           placeholder="Database Password" value="root" required>
                                 </div>
                             </div>
                         </div>
@@ -84,34 +84,34 @@
 
                                 <div class="form-group has-error">
                                     <input type="number" class="form-control" name="fbId"
-                                           placeholder="Facebook ID" required>
+                                           placeholder="Facebook ID" value="246250632436633" required>
                                 </div>
 
                                 <div class="form-group has-error">
                                     <input type="text" class="form-control" name="fbSecret"
-                                           placeholder="Facebook Secret" required>
+                                           placeholder="Facebook Secret" value="fd8cfcd481455ca12f86792cfc323c6e" required>
                                 </div>
 
                                 <div class="form-group has-error">
                                     <input type="text" class="form-control" name="fbNamespace"
-                                           placeholder="Facebook Namespace" required>
+                                           placeholder="Facebook Namespace" value="test_app_prod" required>
                                 </div>
 
                                 <legend>Facebook Test Params</legend>
 
                                 <div class="form-group">
                                     <input type="number" class="form-control" name="fbIdTest"
-                                           placeholder="Facebook ID TEST" required>
+                                           placeholder="Facebook ID TEST" value="246251089103254" required>
                                 </div>
 
                                 <div class="form-group">
                                     <input type="text" class="form-control" name="fbSecretTest"
-                                           placeholder="Facebook Secret TEST" required>
+                                           placeholder="Facebook Secret TEST" value="79192a9a2555ff990dc024565248c8fa" required>
                                 </div>
 
                                 <div class="form-group">
                                     <input type="text" class="form-control" name="fbTestNamespace"
-                                           placeholder="Facebook Namespace TEST" required>
+                                           placeholder="Facebook Namespace TEST" value="test_app_loc" required>
                                 </div>
                             </div>
                         </div>

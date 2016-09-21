@@ -27,7 +27,7 @@ class FbAppDeployer extends AppDeployer
      * @param string $destination
      * @return boolean
      */
-    public function deploy($destination)
+    public function deployApplication($destination)
     {
         $destination .=
             $this->application->appFolder;
@@ -40,8 +40,18 @@ class FbAppDeployer extends AppDeployer
         $this->deployControllers($destination);
         $this->deployViews($destination);
 
-        $this->createDatabase(
-            $this->application->appDatabase);
+        return true;
+    }
+
+    /**
+     * @return boolean
+     */
+    public function deployDatabase()
+    {
+        $dbcon = new \PDO("mysql:host={$this->application->dbHost}",
+            $this->application->dbUsername, $this->application->dbPassword);
+        $dbcon->exec("CREATE DATABASE {$this->application->dbName} 
+            DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci");
 
         return true;
     }
@@ -53,21 +63,18 @@ class FbAppDeployer extends AppDeployer
     {
         $destination .= '/config/';
 
-        $this->createDbFile($destination.'db.php',
-            $this->application->appDatabase);
-        $this->createConsoleFile($destination.'console.php',
-            $this->application->appDatabase);
-        $this->createParamsFile($destination.'params.php',
-            $this->application->appName, $this->application->appFolder);
+        $this->createDbFile($destination);
+        $this->createConsoleFile($destination);
+        $this->createParamsFile($destination);
 
     }
 
     /**
      * @param string $destination
-     * @param string $db_name
      */
-    private function createDbFile($destination, $db_name)
+    private function createDbFile($destination)
     {
+        $destination .= 'db.php';
 
         $paramsFile = fopen($destination, "w")
         or die("Unable to open file!");
@@ -77,18 +84,25 @@ class FbAppDeployer extends AppDeployer
 // TODO Enter the necessary db params
 $host = $_SERVER[\'HTTP_HOST\'];
 
-if ($host == \'www.myapps.loc\') {
+if ($host == \''.$_SERVER['HTTP_HOST'].'\') {
     return [
+    
+        // Local database params
         \'class\' => \'yii\db\Connection\',
-        \'dsn\' => \'mysql:host=localhost;dbname=' . $db_name . '\',
-        \'username\' => \'root\', \'password\' => \'root\',
+        \'dsn\' => \'mysql:host='.$this->application->dbHost.
+            ';dbname=' . $this->application->dbName . '\',
+        \'username\' => \''.$this->application->dbUsername.'\', 
+        \'password\' => \''.$this->application->dbPassword.'\',
         \'charset\' => \'utf8\',
     ];
 } else {
     return [
+    
+        // Production database params
         \'class\' => \'yii\db\Connection\',
-        \'dsn\' => \'mysql:host=localhost;dbname=zadmin_dbname\',
-        \'username\' => \'codeitapps\', \'password\' => \'ga2ama4ap\',
+        \'dsn\' => \'mysql:host=HOST;dbname=DATABASE\',
+        \'username\' => \'USERNAME\', 
+        \'password\' => \'PASSWORD\',
         \'charset\' => \'utf8\',
     ];
 }
@@ -100,10 +114,11 @@ if ($host == \'www.myapps.loc\') {
 
     /**
      * @param string $destination
-     * @param string $db_name
      */
-    private function createConsoleFile($destination, $db_name)
+    private function createConsoleFile($destination)
     {
+        $destination .= 'console.php';
+
         $paramsFile = fopen($destination, "w")
         or die("Unable to open file!");
 
@@ -112,8 +127,10 @@ if ($host == \'www.myapps.loc\') {
 $params = require(__DIR__ . \'/params.php\');
 $db = [
     \'class\' => \'yii\db\Connection\',
-        \'dsn\' => \'mysql:host=localhost;dbname=' . $db_name . '\',
-        \'username\' => \'root\', \'password\' => \'root\',
+        \'dsn\' => \'mysql:host='.$this->application->dbHost.
+            ';dbname=' . $this->application->dbName . '\',
+        \'username\' => \''.$this->application->dbUsername.'\', 
+        \'password\' => \''.$this->application->dbPassword.'\',
         \'charset\' => \'utf8\',
     ];
 
@@ -163,11 +180,10 @@ return $config;';
 
     /**
      * @param string $destination
-     * @param string $app_name
-     * @param string $app_root
      */
-    private function createParamsFile($destination, $app_name, $app_root)
+    private function createParamsFile($destination)
     {
+        $destination .= 'params.php';
 
         $paramsFile = fopen($destination, "w")
         or die("Unable to open file!");
@@ -183,12 +199,12 @@ $params = [
     \'adminEmail\'    => \'milos_dodic@live.com\',
 
     // application params
-    \'app_name\'    => \'' . $app_name . '\',
-    \'fbLogin_url\'  => "https://$host/' . $app_root . '/site/login"
+    \'app_name\'    => \'' . $this->application->appName . '\',
+    \'fbLogin_url\'  => "https://$host/' . $this->application->appFolder . '/site/login"
 ];
 
 // TODO Enter the necessary fb params
-if ($host == \'www.myapps.loc\') {
+if ($host == \''.$_SERVER['HTTP_HOST'].'\') {
     $params = array_merge($params,[
 
         // facebook test app params

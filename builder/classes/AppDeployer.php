@@ -23,13 +23,12 @@ abstract class AppDeployer
      * @param string $destination
      * @return boolean
      */
-    abstract function deploy($destination);
+    abstract function deployApplication($destination);
 
-    protected function createDatabase($dbName)
-    {
-        $dbcon = new \PDO("mysql:host=localhost;", 'root', 'root');
-        $dbcon->exec("CREATE DATABASE $dbName DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci");
-    }
+    /**
+     * @return boolean
+     */
+    abstract function deployDatabase();
 
     /**
      * @param string $destination

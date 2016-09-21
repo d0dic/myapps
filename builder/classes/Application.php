@@ -11,9 +11,19 @@ namespace app\classes;
 /**
  * Class Application
  * @package app\classes
+ *
+ * @property string $dbHost;
+ * @property string $dbName;
+ * @property string $dbUsername;
+ * @property string $dbPassword;
  */
 abstract class Application
 {
+    public $dbHost;
+    public $dbName;
+    public $dbUsername;
+    public $dbPassword;
+
     /**
      * @var string $root
      * @var array $models
