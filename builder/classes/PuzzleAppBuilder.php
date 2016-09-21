@@ -34,7 +34,7 @@ class PuzzleAppBuilder extends FbAppBuilder
     function buildMigrations()
     {
         $this->app->setMigrations([
-            'piece', 'puzzle', 'game', 'topscore'
+            'game', 'topscore', 'piece', 'puzzle'
         ]);
     }
 
