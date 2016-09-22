@@ -12,7 +12,7 @@ namespace app\classes;
  * Class FbAppFactory
  * @package app\classes
  */
-class FbAppFactory
+class FbAppFactory extends AppFactory
 {
     /**
      * @var FbAppBuilder

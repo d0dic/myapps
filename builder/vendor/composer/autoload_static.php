@@ -14,6 +14,7 @@ class ComposerStaticInit79958503727fd0fee704a46986f03cd4
         'POP3' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.pop3.php',
         'SMTP' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.smtp.php',
         'app\\classes\\AppDeployer' => __DIR__ . '/../..' . '/classes/AppDeployer.php',
+        'app\\classes\\AppFactory' => __DIR__ . '/../..' . '/classes/AppFactory.php',
         'app\\classes\\AppGenerator' => __DIR__ . '/../..' . '/classes/AppGenerator.php',
         'app\\classes\\Application' => __DIR__ . '/../..' . '/classes/Application.php',
         'app\\classes\\DefaultAppBuilder' => __DIR__ . '/../..' . '/classes/DefaultAppBuilder.php',

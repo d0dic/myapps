@@ -1,5 +1,5 @@
 {
-  "name": "milos/appbuilder",
+  "name": "milos/builder",
   "description": "Facebook applications builder",
   "minimum-stability": "dev",
   "type": "project",

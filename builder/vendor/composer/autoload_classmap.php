@@ -13,6 +13,7 @@ return array(
     'POP3' => $vendorDir . '/phpmailer/phpmailer/class.pop3.php',
     'SMTP' => $vendorDir . '/phpmailer/phpmailer/class.smtp.php',
     'app\\classes\\AppDeployer' => $baseDir . '/classes/AppDeployer.php',
+    'app\\classes\\AppFactory' => $baseDir . '/classes/AppFactory.php',
     'app\\classes\\AppGenerator' => $baseDir . '/classes/AppGenerator.php',
     'app\\classes\\Application' => $baseDir . '/classes/Application.php',
     'app\\classes\\DefaultAppBuilder' => $baseDir . '/classes/DefaultAppBuilder.php',
