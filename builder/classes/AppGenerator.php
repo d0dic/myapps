@@ -47,10 +47,11 @@ class AppGenerator
     }
 
     /**
-     * @param  array $post
+     * @param array $post
+     * @throws \Exception
      */
-    public function loadParams($post){
-
+    public function loadParams($post)
+    {
         $this->application->fbId = $post['fbId'];
         $this->application->fbSecret = $post['fbSecret'];
         $this->application->fbIdTest = $post['fbIdTest'];
@@ -66,6 +67,11 @@ class AppGenerator
         $this->application->dbUsername = $post['dbUsername'];
         $this->application->dbPassword = $post['dbPassword'];
         $this->application->dbName = $post['dbName'];
+
+        if (!$this->application->validate()) {
+            throw new \Exception('Application params missing: ' .
+                $this->application->getErrors());
+        }
 
         $this->appDeployer =
             new FbAppDeployer($this->application);

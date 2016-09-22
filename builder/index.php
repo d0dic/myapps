@@ -49,7 +49,7 @@
 
                         <div class="form-group has-error">
                             <input type="text" class="form-control" name="appName"
-                                   placeholder="Application Name" value="Test Application" required>
+                                   placeholder="Application Name" required>
                         </div>
 
                         <div class="panel panel-danger">

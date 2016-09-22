@@ -43,7 +43,7 @@ session_start();
     <div class="jumbotron">
         <h1>Congratulations!</h1>
         <h2>Your Facebook App in <a href="http://www.yiiframework.com/doc-2.0/guide-index.html">Yii 2 Framework</a>
-            has just been created</h2>
+            has just been created!</h2>
 
         <div class="alert alert-danger">
             <p><strong>Before</strong> you go to the link bellow you should open your <u>app folder</u> run cmd and type

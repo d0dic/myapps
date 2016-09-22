@@ -38,12 +38,18 @@ abstract class Application
     protected $views;
 
     /**
+     * @var array
+     */
+    protected $errors;
+
+    /**
      * FbApplication constructor.
      * @param string $root
      */
     public function __construct($root)
     {
-        $this->root = 'apps/'.$root;
+        $this->root = 'apps/' . $root;
+        $this->errors = [];
         $this->init();
     }
 
@@ -92,6 +98,38 @@ abstract class Application
     public function setViews($views)
     {
         $this->views = array_merge($this->views, $views);
+    }
+
+    /**
+     * @return bool
+     */
+    public function validate()
+    {
+        $valid = true;
+        $properties = get_object_vars($this);
+
+        foreach ($properties as $name => $value) {
+            if ($name != 'errors' && $value == null) {
+                $this->errors[$name] = 'undefined';
+                $valid = false;
+            }
+        }
+
+        return $valid;
+    }
+
+    /**
+     * @return string
+     */
+    public function getErrors()
+    {
+        $errorsString = "";
+
+        foreach ($this->errors as $name => $value) {
+            $errorsString .= "$name -> $value; ";
+        }
+
+        return $errorsString;
     }
 
 }
