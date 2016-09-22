@@ -10,6 +10,8 @@ require_once 'vendor/autoload.php';
 
 use app\classes\AppGenerator;
 
+session_start();
+
 if (!$_POST) {
     header('Location: index.php');
 }
@@ -20,14 +22,15 @@ $appGenerator->build($_POST['appType']);
 try{
     $appGenerator->loadParams($_POST);
 } catch (Exception $exc){
-    die('Loading params error! '.$exc->getMessage());
+
+    $_SESSION['message'] = $exc->getMessage();
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
 }
 
 if (!$appGenerator->provide(__DIR__.'/../')) {
     die('Application not generated!');
 }
 
-session_start();
 $folder = $_POST['dbName'];
 $host = $_SERVER['HTTP_HOST'];
 

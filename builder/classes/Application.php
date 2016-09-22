@@ -126,7 +126,7 @@ abstract class Application
         $errorsString = "";
 
         foreach ($this->errors as $name => $value) {
-            $errorsString .= "$name -> $value; ";
+            $errorsString .= "$name is $value; ";
         }
 
         return $errorsString;

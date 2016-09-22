@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,6 +48,13 @@
                 <div class="panel panel-danger">
                     <div class="panel-body">
                         <legend>App Properties</legend>
+
+                        <?php if (isset($_SESSION['message'])): ?>
+                        <div class="alert alert-danger">
+                        	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                        	<strong>Warning!</strong> <?= $_SESSION['message'] ?>
+                        </div>
+                        <?php endif; ?>
 
                         <div class="form-group has-error">
                             <input type="text" class="form-control" name="appName"
