@@ -8,6 +8,10 @@
 
 namespace app\classes;
 
+use app\classes\applications\FbApplication;
+use app\classes\deployers\FbAppDeployer;
+use app\classes\factories\FbAppFactory;
+
 /**
  * Class AppGenerator
  * @package app\classes

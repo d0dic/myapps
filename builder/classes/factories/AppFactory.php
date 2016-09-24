@@ -6,7 +6,7 @@
  * Time: 3:35 PM
  */
 
-namespace app\classes;
+namespace app\classes\factories;
 
 /**
  * Class AppFactory

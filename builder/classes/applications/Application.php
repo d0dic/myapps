@@ -6,7 +6,7 @@
  * Time: 2:43 PM
  */
 
-namespace app\classes;
+namespace app\classes\applications;
 
 /**
  * Class Application

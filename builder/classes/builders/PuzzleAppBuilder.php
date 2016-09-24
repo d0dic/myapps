@@ -6,9 +6,14 @@
  * Time: 2:42 PM
  */
 
-namespace app\classes;
+namespace app\classes\builders;
 
+use app\classes\applications\FbApplication;
 
+/**
+ * Class PuzzleAppBuilder
+ * @package app\classes\builders
+ */
 class PuzzleAppBuilder extends FbAppBuilder
 {
 

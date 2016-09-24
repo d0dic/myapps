@@ -6,7 +6,9 @@
  * Time: 7:02 PM
  */
 
-namespace app\classes;
+namespace app\classes\builders;
+
+use app\classes\applications\FbApplication;
 
 /**
  * Class DefaultBuilder

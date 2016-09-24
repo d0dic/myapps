@@ -6,7 +6,7 @@
  * Time: 11:24 AM
  */
 
-namespace app\classes;
+namespace app\classes\applications;
 
 /**
  * Class FbApplication

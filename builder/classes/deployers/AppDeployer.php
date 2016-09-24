@@ -6,7 +6,8 @@
  * Time: 8:30 PM
  */
 
-namespace app\classes;
+namespace app\classes\deployers;
+use app\classes\applications\Application;
 
 /**
  * Class AppDeployer

@@ -6,7 +6,14 @@
  * Time: 2:50 PM
  */
 
-namespace app\classes;
+namespace app\classes\factories;
+
+use app\classes\builders\FbAppBuilder;
+use app\classes\builders\DefaultAppBuilder;
+use app\classes\builders\GalleryAppBuilder;
+use app\classes\builders\PuzzleAppBuilder;
+use app\classes\builders\QueryAppBuilder;
+use app\classes\applications\FbApplication;
 
 /**
  * Class FbAppFactory

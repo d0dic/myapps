@@ -3,47 +3,50 @@
  * Created by PhpStorm.
  * User: milos
  * Date: 19-Sep-16
- * Time: 11:53 AM
+ * Time: 2:46 PM
  */
 
-namespace app\classes;
+namespace app\classes\builders;
+
+use app\classes\applications\FbApplication;
 
 /**
- * Class QuestionnaireBuilder
- * @package app\classes
+ * Class GalleryAppBuilder
+ * @package app\classes\builders
  */
-class QueryAppBuilder extends FbAppBuilder
+class GalleryAppBuilder extends FbAppBuilder
 {
+
     function createApp()
     {
-        $this->app = new FbApplication('query');
+        $this->app = new FbApplication('gallery');
     }
 
     function buildModels()
     {
         $this->app->setModels([
-            'Form', 'Question', 'Answer', 'Reply'
+            'Poster', 'PosterSearch', 'Like'
         ]);
     }
 
     function buildControllers()
     {
         $this->app->setControllers([
-            'QuestionController'
+            'PosterController'
         ]);
     }
 
     function buildMigrations()
     {
         $this->app->setMigrations([
-            'form', 'question', 'answer', 'reply'
+            'poster', 'like'
         ]);
     }
 
     function buildViews()
     {
         $this->app->setViews([
-            'question'
+            'poster'
         ]);
     }
 }
