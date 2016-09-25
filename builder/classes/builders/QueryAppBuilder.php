@@ -33,6 +33,13 @@ class QueryAppBuilder extends FbAppBuilder
             'QuestionController'
         ]);
     }
+    
+    function buildComponents()
+    {
+        $this->app->setComponents([
+            'FacebookComponent'
+        ]);
+    }
 
     function buildMigrations()
     {

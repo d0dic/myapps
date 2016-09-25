@@ -28,6 +28,22 @@ class DefaultAppBuilder extends FbAppBuilder
     /**
      * @return mixed
      */
+    function buildComponents()
+    {
+        // TODO: Implement buildComponents() method.
+    }
+
+    /**
+     * @return mixed
+     */
+    function buildMigrations()
+    {
+        // TODO: Implement buildMigrations() method.
+    }
+
+    /**
+     * @return mixed
+     */
     function buildModels()
     {
         // TODO: Implement buildModels() method.
@@ -39,14 +55,6 @@ class DefaultAppBuilder extends FbAppBuilder
     function buildControllers()
     {
         // TODO: Implement buildControllers() method.
-    }
-
-    /**
-     * @return mixed
-     */
-    function buildMigrations()
-    {
-        // TODO: Implement buildMigrations() method.
     }
 
     /**

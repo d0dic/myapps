@@ -36,17 +36,22 @@ abstract class FbAppBuilder
     /**
      * @return mixed
      */
+    abstract function buildComponents();
+
+    /**
+     * @return mixed
+     */
+    abstract function buildMigrations();
+
+    /**
+     * @return mixed
+     */
     abstract function buildModels();
 
     /**
      * @return mixed
      */
     abstract function buildControllers();
-
-    /**
-     * @return mixed
-     */
-    abstract function buildMigrations();
 
     /**
      * @return mixed

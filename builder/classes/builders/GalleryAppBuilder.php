@@ -35,6 +35,13 @@ class GalleryAppBuilder extends FbAppBuilder
             'PosterController'
         ]);
     }
+    
+    function buildComponents()
+    {
+        $this->app->setComponents([
+            'FacebookComponent'
+        ]);
+    }
 
     function buildMigrations()
     {

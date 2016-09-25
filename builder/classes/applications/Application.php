@@ -28,12 +28,14 @@ abstract class Application
      * @var string $root
      * @var array $models
      * @var array $controllers
+     * @var array $components
      * @var array $migrations
      * @var array $views
      */
     protected $root;
     protected $models;
     protected $controllers;
+    protected $components;
     protected $migrations;
     protected $views;
 
@@ -81,6 +83,15 @@ abstract class Application
     {
         $this->controllers =
             array_merge($this->controllers, $controllers);
+    }
+
+    /**
+     * @param array $components
+     */
+    public function setComponents($components)
+    {
+        $this->components =
+            array_merge($this->components, $components);
     }
 
     /**

@@ -69,6 +69,15 @@ abstract class AppDeployer
     /**
      * @param string $destination
      */
+    protected function deployComponents($destination)
+    {
+        $this->copyFiles($this->application->getRoot().'/components',
+            $destination.'/components');
+    }
+
+    /**
+     * @param string $destination
+     */
     protected function deployViews($destination)
     {
         $this->copyFiles($this->application->getRoot().'/views',

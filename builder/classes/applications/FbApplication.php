@@ -37,9 +37,11 @@ class FbApplication extends Application
      * @deprecated Sets the initial param values
      */
     public function init(){
+        $this->components = ['FacebookComponent'];
+        $this->migrations = ['user', 'contact', 'invite'];
+
         $this->models = ['User', 'Contact', 'Invite'];
         $this->controllers = ['FacebookController', 'SiteController'];
-        $this->migrations = ['user', 'contact', 'invite'];
         $this->views = ['site'];
     }
 

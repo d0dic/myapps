@@ -35,6 +35,13 @@ class PuzzleAppBuilder extends FbAppBuilder
             'PuzzleController'
         ]);
     }
+    
+    function buildComponents()
+    {
+        $this->app->setComponents([
+            'FacebookComponent'
+        ]);
+    }
 
     function buildMigrations()
     {

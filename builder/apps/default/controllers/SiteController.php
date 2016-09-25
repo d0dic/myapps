@@ -49,7 +49,7 @@ class SiteController extends FacebookController
     public function actionIndex()
     {
         return $this->render('index', [
-            'loginUrl' => $this->getLoginUrl()
+            'loginUrl' => Yii::$app->facebook->getLoginUrl()
         ]);
     }
 

@@ -55,7 +55,7 @@ class SiteController extends FacebookController
     {
         # Yii::$app->user->logout(true);
         return $this->render('index', [
-            'loginUrl' => $this->getLoginUrl()
+            'loginUrl' => Yii::$app->facebook->getLoginUrl()
         ]);
     }
 

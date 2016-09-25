@@ -7,6 +7,7 @@
  */
 
 namespace app\classes\deployers;
+
 use app\classes\applications\FbApplication;
 
 /**
@@ -36,8 +37,10 @@ class FbAppDeployer extends AppDeployer
         $this->deployCore($destination);
         $this->deployConfig($destination);
 
-        $this->deployModels($destination);
         $this->deployMigrations($destination);
+        $this->deployComponents($destination);
+
+        $this->deployModels($destination);
         $this->deployControllers($destination);
         $this->deployViews($destination);
 
@@ -56,7 +59,7 @@ class FbAppDeployer extends AppDeployer
 
         return true;
     }
-    
+
     /**
      * @param string $destination
      */
@@ -67,6 +70,7 @@ class FbAppDeployer extends AppDeployer
         $this->createDbFile($destination);
         $this->createConsoleFile($destination);
         $this->createParamsFile($destination);
+        $this->createWebFile($destination);
 
     }
 
@@ -85,15 +89,15 @@ class FbAppDeployer extends AppDeployer
 // TODO Enter the necessary db params
 $host = $_SERVER[\'HTTP_HOST\'];
 
-if ($host == \''.$_SERVER['HTTP_HOST'].'\') {
+if ($host == \'' . $_SERVER['HTTP_HOST'] . '\') {
     return [
     
         // Local database params
         \'class\' => \'yii\db\Connection\',
-        \'dsn\' => \'mysql:host='.$this->application->dbHost.
+        \'dsn\' => \'mysql:host=' . $this->application->dbHost .
             ';dbname=' . $this->application->dbName . '\',
-        \'username\' => \''.$this->application->dbUsername.'\', 
-        \'password\' => \''.$this->application->dbPassword.'\',
+        \'username\' => \'' . $this->application->dbUsername . '\', 
+        \'password\' => \'' . $this->application->dbPassword . '\',
         \'charset\' => \'utf8\',
     ];
 } else {
@@ -128,10 +132,10 @@ if ($host == \''.$_SERVER['HTTP_HOST'].'\') {
 $params = require(__DIR__ . \'/params.php\');
 $db = [
     \'class\' => \'yii\db\Connection\',
-        \'dsn\' => \'mysql:host='.$this->application->dbHost.
+        \'dsn\' => \'mysql:host=' . $this->application->dbHost .
             ';dbname=' . $this->application->dbName . '\',
-        \'username\' => \''.$this->application->dbUsername.'\', 
-        \'password\' => \''.$this->application->dbPassword.'\',
+        \'username\' => \'' . $this->application->dbUsername . '\', 
+        \'password\' => \'' . $this->application->dbPassword . '\',
         \'charset\' => \'utf8\',
     ];
 
@@ -205,7 +209,7 @@ $params = [
 ];
 
 // TODO Enter the necessary fb params
-if ($host == \''.$_SERVER['HTTP_HOST'].'\') {
+if ($host == \'' . $_SERVER['HTTP_HOST'] . '\') {
     $params = array_merge($params,[
 
         // facebook test app params
@@ -233,6 +237,96 @@ return $params;';
 
         fwrite($paramsFile, $contents);
         fclose($paramsFile);
+    }
+
+    /**
+     * @param $destination
+     */
+    public function createWebFile($destination)
+    {
+        $destination .= 'web.php';
+
+        $webFile = fopen($destination, "w")
+        or die("Unable to open file!");
+
+        $contents = '<?php
+
+$params = require(__DIR__ . \'/params.php\');
+
+$config = [
+    \'id\' => \'basic\',
+    \'basePath\' => dirname(__DIR__),
+    \'bootstrap\' => [\'log\'],
+    \'components\' => [
+        \'request\' => [
+            // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
+            \'cookieValidationKey\' => \'!kljhFvnluierHhc&7sfi13msbdfmnLasdnSS*\',
+        ],
+        \'cache\' => [
+            \'class\' => \'yii\caching\FileCache\',
+        ],
+        \'user\' => [
+            \'identityClass\' => \'app\models\User\',
+            \'loginUrl\' => [\'site/index\'],
+            \'enableAutoLogin\' => true,
+        ],
+        \'facebook\' => [
+            \'class\' => \'app\components\FacebookComponent\'
+        ],
+        \'errorHandler\' => [
+            \'errorAction\' => \'site/error\',
+        ],
+        \'mailer\' => [
+            \'class\' => \'yii\swiftmailer\Mailer\',
+            // send all mails to a file by default. You have to set
+            // \'useFileTransport\' to false and configure a transport
+            // for the mailer to send real emails.
+            \'useFileTransport\' => false,
+            \'host\' => \'smtp.gmail.com\',
+            \'username\' => \'epostar011\',
+            \'password\' => \'lozinka123\',
+            \'encryption\' => \'tls\',
+            \'port\' => \'587\',
+        ],
+        \'urlManager\' => [
+            \'class\' => \'yii\web\UrlManager\',
+            // Disable index.php
+            \'showScriptName\' => false,
+            // Disable r= routes
+            \'enablePrettyUrl\' => true,
+            \'rules\' => [],
+        ],
+        \'log\' => [
+            \'traceLevel\' => YII_DEBUG ? 3 : 0,
+            \'targets\' => [
+                [
+                    \'class\' => \'yii\log\FileTarget\',
+                    \'levels\' => [\'error\', \'warning\'],
+                ],
+            ],
+        ],
+        \'db\' => require(__DIR__ . \'/db.php\'),
+    ],
+    \'params\' => $params,
+];
+
+if (YII_ENV_DEV) {
+    // configuration adjustments for \'dev\' environment
+    $config[\'bootstrap\'][] = \'debug\';
+    $config[\'modules\'][\'debug\'] = [
+        \'class\' => \'yii\debug\Module\',
+    ];
+
+    $config[\'bootstrap\'][] = \'gii\';
+    $config[\'modules\'][\'gii\'] = [
+        \'class\' => \'yii\gii\Module\',
+    ];
+}
+
+return $config;';
+
+        fwrite($webFile, $contents);
+        fclose($webFile);
     }
 
 }
