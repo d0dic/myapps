@@ -53,7 +53,6 @@ class SiteController extends FacebookController
 
     public function actionIndex()
     {
-        # Yii::$app->user->logout(true);
         return $this->render('index', [
             'loginUrl' => Yii::$app->facebook->getLoginUrl()
         ]);
@@ -90,9 +89,8 @@ class SiteController extends FacebookController
         $form->created = time();
 
         if (!$form->save()) {
-            # throw new Exception('Play not saved to database!');
-            dump($form->errors);
-            die;
+            throw new Exception('Game not saved to database!');
+            # dump($form->errors); die;
         }
 
         return $this->render('game', [
@@ -139,7 +137,7 @@ class SiteController extends FacebookController
             ])->one();
 
             if (!$currentForm) {
-                throw new Exception('Play does not exist!');
+                throw new Exception('Game does not exist!');
             }
 
             foreach ($currentForm->queries as $query) {
@@ -152,7 +150,7 @@ class SiteController extends FacebookController
             }
 
             if (!$currentForm->save()) {
-                throw new Exception('Play not saved!');
+                throw new Exception('Game not saved!');
             }
 
             $topscore = Topscore::find()->where(

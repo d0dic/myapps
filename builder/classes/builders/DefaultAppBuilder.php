@@ -46,7 +46,9 @@ class DefaultAppBuilder extends FbAppBuilder
      */
     function buildModels()
     {
-        // TODO: Implement buildModels() method.
+        $this->buildModels([
+            'UserSearch'
+        ]);
     }
 
     /**
@@ -54,7 +56,9 @@ class DefaultAppBuilder extends FbAppBuilder
      */
     function buildControllers()
     {
-        // TODO: Implement buildControllers() method.
+        $this->app->setControllers([
+            'UserController'
+        ]);
     }
 
     /**
@@ -62,6 +66,8 @@ class DefaultAppBuilder extends FbAppBuilder
      */
     function buildViews()
     {
-        // TODO: Implement buildViews() method.
+        $this->buildViews([
+            'user'
+        ]);
     }
 }
