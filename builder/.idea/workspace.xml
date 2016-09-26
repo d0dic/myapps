@@ -268,7 +268,7 @@
       <workItem from="1474835482739" duration="98000" />
       <workItem from="1474837883328" duration="2348000" />
       <workItem from="1474885439355" duration="754000" />
-      <workItem from="1474912812694" duration="3131000" />
+      <workItem from="1474912812694" duration="3219000" />
     </task>
     <task id="LOCAL-00001" summary="appbuilder add in">
       <created>1474299034719</created>
@@ -407,7 +407,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99807000" />
+    <option name="totallyTimeSpent" value="99895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
