@@ -14,6 +14,7 @@ use yii\web\Controller;
 
 use app\models\User;
 use app\models\Invite;
+use app\models\Share;
 
 use Facebook\Facebook;
 use Facebook\Exceptions\FacebookResponseException;
@@ -62,6 +63,25 @@ abstract class FacebookController extends Controller
                 throw new Exception('Invite not saved to database!');
                 # echo '<pre>'; var_dump($invite->errors); die();
             }
+        }
+
+        return $this->redirect('index');
+    }
+
+    /**
+     * @param $post
+     * @return mixed
+     * @throws \Exception
+     */
+    public function actionShare($post)
+    {
+        $share = new Share();
+        $share->user = user()->id;
+        $share->post = $post;
+        $share->created = time();
+
+        if (!$share->save()) {
+            throw new \Exception('Share information not saved!');
         }
 
         return $this->redirect('index');
