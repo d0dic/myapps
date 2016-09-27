@@ -38,9 +38,9 @@ class FbApplication extends Application
      */
     public function init(){
         $this->components = ['FacebookComponent'];
-        $this->migrations = ['user', 'contact', 'invite'];
+        $this->migrations = ['user', 'contact', 'invite', 'share'];
 
-        $this->models = ['User', 'Contact', 'Invite'];
+        $this->models = ['User', 'Contact', 'Invite', 'Share'];
         $this->controllers = ['FacebookController', 'SiteController'];
         $this->views = ['site'];
     }
