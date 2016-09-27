@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2eb31b43-4057-498c-bae6-e82f87f0e3f6" name="Default" comment="builder default app user managament addon">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/default/migrations/m160927_150642_share.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/default/models/Share.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gallery/migrations/m160927_150642_share.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gallery/models/Share.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/puzzle/migrations/m160927_150642_share.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/puzzle/models/Share.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/query/migrations/m160927_150642_share.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/query/models/Share.php" />
+    <list default="true" id="2eb31b43-4057-498c-bae6-e82f87f0e3f6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/controllers/FacebookController.php" afterPath="$PROJECT_DIR$/apps/default/controllers/FacebookController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/controllers/FacebookController.php" afterPath="$PROJECT_DIR$/apps/gallery/controllers/FacebookController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/controllers/FacebookController.php" afterPath="$PROJECT_DIR$/apps/puzzle/controllers/FacebookController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/controllers/FacebookController.php" afterPath="$PROJECT_DIR$/apps/query/controllers/FacebookController.php" />
     </list>
     <ignored path="appbuilder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FacebookController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FacebookController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/default/controllers/FacebookController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="225">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
                 <element signature="e#421#460#0#PHP" expanded="false" />
                 <element signature="e#465#568#0#PHP" expanded="false" />
@@ -78,6 +67,16 @@
                 <element signature="e#2354#2460#0#PHP" expanded="false" />
                 <element signature="e#2693#2796#0#PHP" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -175,6 +174,7 @@
         <option value="$PROJECT_DIR$/apps/default/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php" />
         <option value="$PROJECT_DIR$/apps/default/controllers/FacebookController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -345,7 +345,7 @@
       <workItem from="1474912812694" duration="3219000" />
       <workItem from="1474916902997" duration="19000" />
       <workItem from="1474967430668" duration="4341000" />
-      <workItem from="1474979245122" duration="3729000" />
+      <workItem from="1474979245122" duration="3876000" />
     </task>
     <task id="LOCAL-00001" summary="appbuilder add in">
       <created>1474299034719</created>
@@ -480,17 +480,24 @@
       <option name="project" value="LOCAL" />
       <updated>1474916613707</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="builder fb share model and migrations addon">
+      <created>1474989240879</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1474989240879</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107984000" />
+    <option name="totallyTimeSpent" value="108131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20572354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20572354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -541,7 +548,8 @@
     <MESSAGE value="builder namespaces refactoring" />
     <MESSAGE value="builder components addon" />
     <MESSAGE value="builder default app user managament addon" />
-    <option name="LAST_COMMIT_MESSAGE" value="builder default app user managament addon" />
+    <MESSAGE value="builder fb share model and migrations addon" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder fb share model and migrations addon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -859,8 +867,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/default/controllers/FacebookController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="225">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="e#421#460#0#PHP" expanded="false" />
             <element signature="e#465#568#0#PHP" expanded="false" />
@@ -877,6 +885,14 @@
             <element signature="e#2354#2460#0#PHP" expanded="false" />
             <element signature="e#2693#2796#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
