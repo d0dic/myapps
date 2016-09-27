@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb31b43-4057-498c-bae6-e82f87f0e3f6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/gallery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/puzzle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/query.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,8 +28,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+            <state relative-caret-position="25">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -369,7 +365,7 @@
       <workItem from="1474967430668" duration="4341000" />
       <workItem from="1474979245122" duration="3962000" />
       <workItem from="1474996756147" duration="331000" />
-      <workItem from="1474997124648" duration="25000" />
+      <workItem from="1474997124648" duration="75000" />
     </task>
     <task id="LOCAL-00001" summary="appbuilder add in">
       <created>1474299034719</created>
@@ -518,11 +514,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474989374901</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="builder teste removal">
+      <created>1474997162654</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1474997162654</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108573000" />
+    <option name="totallyTimeSpent" value="108623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -581,7 +584,8 @@
     <MESSAGE value="builder default app user managament addon" />
     <MESSAGE value="builder fb share model and migrations addon" />
     <MESSAGE value="builder gitignore addon" />
-    <option name="LAST_COMMIT_MESSAGE" value="builder gitignore addon" />
+    <MESSAGE value="builder teste removal" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder teste removal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1064,8 +1068,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="46" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+        <state relative-caret-position="25">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
