@@ -46,7 +46,7 @@ class DefaultAppBuilder extends FbAppBuilder
      */
     function buildModels()
     {
-        $this->buildModels([
+        $this->app->setModels([
             'UserSearch'
         ]);
     }
@@ -66,7 +66,7 @@ class DefaultAppBuilder extends FbAppBuilder
      */
     function buildViews()
     {
-        $this->buildViews([
+        $this->app->setViews([
             'user'
         ]);
     }
