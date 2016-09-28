@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb31b43-4057-498c-bae6-e82f87f0e3f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php" afterPath="$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/deploy.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/components/FacebookComponent.php" afterPath="$PROJECT_DIR$/apps/default/components/FacebookComponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create.php" afterPath="$PROJECT_DIR$/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finish.php" afterPath="$PROJECT_DIR$/finish.php" />
     </list>
     <ignored path="appbuilder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,108 +28,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="finish.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/finish.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/deploy.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultAppBuilder.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/default/controllers/SiteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
               <folding>
-                <element signature="e#183#505#0#PHP" expanded="false" />
-                <element signature="e#515#1261#0#PHP" expanded="false" />
-                <element signature="e#1427#1547#0#PHP" expanded="false" />
-                <element signature="e#1553#1631#0#PHP" expanded="false" />
-                <element signature="e#1637#1717#0#PHP" expanded="false" />
-                <element signature="e#1723#1807#0#PHP" expanded="false" />
-                <element signature="e#1813#1897#0#PHP" expanded="false" />
-                <element signature="e#1903#1987#0#PHP" expanded="false" />
-                <element signature="e#1993#2228#0#PHP" expanded="false" />
-                <element signature="e#2234#2911#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FacebookController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/default/controllers/FacebookController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding>
-                <element signature="e#421#460#0#PHP" expanded="false" />
-                <element signature="e#465#568#0#PHP" expanded="false" />
-                <element signature="e#574#619#0#PHP" expanded="false" />
-                <element signature="e#624#878#0#PHP" expanded="false" />
-                <element signature="e#884#984#0#PHP" expanded="false" />
-                <element signature="e#989#1510#0#PHP" expanded="false" />
-                <element signature="e#1076#1462#0#PHP" expanded="false" />
-                <element signature="e#1280#1452#0#PHP" expanded="false" />
-                <element signature="e#1516#1594#0#PHP" expanded="false" />
-                <element signature="e#1599#1924#0#PHP" expanded="false" />
-                <element signature="e#1930#2009#0#PHP" expanded="false" />
-                <element signature="e#2014#2872#0#PHP" expanded="false" />
-                <element signature="e#2354#2460#0#PHP" expanded="false" />
-                <element signature="e#2693#2796#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FacebookComponent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/default/components/FacebookComponent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
-              <folding>
-                <element signature="e#220#281#0#PHP" expanded="false" />
-                <element signature="e#330#377#0#PHP" expanded="false" />
-                <element signature="e#406#465#0#PHP" expanded="false" />
-                <element signature="e#470#784#0#PHP" expanded="false" />
-                <element signature="e#574#752#1#PHP" expanded="false" />
-                <element signature="e#790#823#0#PHP" expanded="false" />
-                <element signature="e#828#1310#0#PHP" expanded="false" />
-                <element signature="e#872#1069#0#PHP" expanded="false" />
-                <element signature="e#916#1059#0#PHP" expanded="false" />
-                <element signature="e#967#1045#0#PHP" expanded="false" />
-                <element signature="e#1222#1303#0#PHP" expanded="false" />
-                <element signature="e#1316#1375#0#PHP" expanded="false" />
-                <element signature="e#1380#3258#0#PHP" expanded="false" />
-                <element signature="e#1488#1925#0#PHP" expanded="false" />
-                <element signature="e#1558#1732#0#PHP" expanded="false" />
-                <element signature="e#1733#1925#0#PHP" expanded="false" />
-                <element signature="e#1935#2495#0#PHP" expanded="false" />
-                <element signature="e#1976#2467#0#PHP" expanded="false" />
-                <element signature="e#2359#2467#0#PHP" expanded="false" />
-                <element signature="e#2505#3161#0#PHP" expanded="false" />
-                <element signature="e#2794#2968#0#PHP" expanded="false" />
-                <element signature="e#2969#3161#0#PHP" expanded="false" />
-                <element signature="e#3264#3345#0#PHP" expanded="false" />
-                <element signature="e#3350#4125#0#PHP" expanded="false" />
-                <element signature="e#3451#3921#0#PHP" expanded="false" />
-                <element signature="e#3931#4056#0#PHP" expanded="false" />
-                <element signature="e#4131#4194#0#PHP" expanded="false" />
-                <element signature="e#4199#4654#0#PHP" expanded="false" />
-                <element signature="e#4490#4617#0#PHP" expanded="false" />
-                <element signature="e#4559#4617#0#PHP" expanded="false" />
+                <element signature="e#6#88#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,8 +83,6 @@
         <option value="$PROJECT_DIR$/classes/AppDeployer.php" />
         <option value="$PROJECT_DIR$/classes/PuzzleAppBuilder.php" />
         <option value="$PROJECT_DIR$/classes/QueryAppBuilder.php" />
-        <option value="$PROJECT_DIR$/finish.php" />
-        <option value="$PROJECT_DIR$/create.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/classes/Application.php" />
         <option value="$PROJECT_DIR$/tests/gallery.php" />
@@ -185,6 +113,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php" />
         <option value="$PROJECT_DIR$/classes/applications/FbApplication.php" />
+        <option value="$PROJECT_DIR$/apps/default/components/FacebookComponent.php" />
+        <option value="$PROJECT_DIR$/create.php" />
+        <option value="$PROJECT_DIR$/core/deploy.php" />
+        <option value="$PROJECT_DIR$/finish.php" />
       </list>
     </option>
   </component>
@@ -229,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,9 +179,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="builder" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,7 +291,9 @@
       <workItem from="1474996756147" duration="331000" />
       <workItem from="1474997124648" duration="123000" />
       <workItem from="1474999519394" duration="1212000" />
-      <workItem from="1475000926638" duration="4000" />
+      <workItem from="1475000926638" duration="46000" />
+      <workItem from="1475055300167" duration="2602000" />
+      <workItem from="1475071359187" duration="3119000" />
     </task>
     <task id="LOCAL-00001" summary="appbuilder add in">
       <created>1474299034719</created>
@@ -508,17 +456,24 @@
       <option name="project" value="LOCAL" />
       <updated>1474997210961</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="builder DefaultBuilder bugfix">
+      <created>1475000962063</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1475000962063</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109887000" />
+    <option name="totallyTimeSpent" value="115650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22030237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18790497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -573,7 +528,8 @@
     <MESSAGE value="builder gitignore addon" />
     <MESSAGE value="builder teste removal" />
     <MESSAGE value="builder tests ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="builder tests ignore" />
+    <MESSAGE value="builder DefaultBuilder bugfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder DefaultBuilder bugfix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -582,6 +538,45 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/apps/default/components/FacebookComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+          <folding>
+            <element signature="e#220#281#0#PHP" expanded="false" />
+            <element signature="e#330#377#0#PHP" expanded="false" />
+            <element signature="e#406#465#0#PHP" expanded="false" />
+            <element signature="e#470#784#0#PHP" expanded="false" />
+            <element signature="e#574#752#1#PHP" expanded="false" />
+            <element signature="e#790#823#0#PHP" expanded="false" />
+            <element signature="e#828#1310#0#PHP" expanded="false" />
+            <element signature="e#872#1069#0#PHP" expanded="false" />
+            <element signature="e#916#1059#0#PHP" expanded="false" />
+            <element signature="e#967#1045#0#PHP" expanded="false" />
+            <element signature="e#1222#1303#0#PHP" expanded="false" />
+            <element signature="e#1316#1375#0#PHP" expanded="false" />
+            <element signature="e#1380#3258#0#PHP" expanded="false" />
+            <element signature="e#1488#1925#0#PHP" expanded="false" />
+            <element signature="e#1558#1732#0#PHP" expanded="false" />
+            <element signature="e#1733#1925#0#PHP" expanded="false" />
+            <element signature="e#1935#2495#0#PHP" expanded="false" />
+            <element signature="e#1976#2467#0#PHP" expanded="false" />
+            <element signature="e#2359#2467#0#PHP" expanded="false" />
+            <element signature="e#2505#3161#0#PHP" expanded="false" />
+            <element signature="e#2794#2968#0#PHP" expanded="false" />
+            <element signature="e#2969#3161#0#PHP" expanded="false" />
+            <element signature="e#3264#3345#0#PHP" expanded="false" />
+            <element signature="e#3350#4125#0#PHP" expanded="false" />
+            <element signature="e#3451#3921#0#PHP" expanded="false" />
+            <element signature="e#3931#4056#0#PHP" expanded="false" />
+            <element signature="e#4131#4194#0#PHP" expanded="false" />
+            <element signature="e#4199#4654#0#PHP" expanded="false" />
+            <element signature="e#4490#4617#0#PHP" expanded="false" />
+            <element signature="e#4559#4617#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -594,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -602,18 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding>
-            <element signature="e#183#505#0#PHP" expanded="false" />
-            <element signature="e#515#1261#0#PHP" expanded="false" />
-            <element signature="e#1427#1547#0#PHP" expanded="false" />
-            <element signature="e#1553#1631#0#PHP" expanded="false" />
-            <element signature="e#1637#1717#0#PHP" expanded="false" />
-            <element signature="e#1723#1807#0#PHP" expanded="false" />
-            <element signature="e#1813#1897#0#PHP" expanded="false" />
-            <element signature="e#1903#1987#0#PHP" expanded="false" />
-            <element signature="e#1993#2228#0#PHP" expanded="false" />
-            <element signature="e#2234#2911#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -691,18 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding>
-            <element signature="e#183#505#0#PHP" expanded="false" />
-            <element signature="e#515#1261#0#PHP" expanded="false" />
-            <element signature="e#1427#1547#0#PHP" expanded="false" />
-            <element signature="e#1553#1631#0#PHP" expanded="false" />
-            <element signature="e#1637#1717#0#PHP" expanded="false" />
-            <element signature="e#1723#1807#0#PHP" expanded="false" />
-            <element signature="e#1813#1897#0#PHP" expanded="false" />
-            <element signature="e#1903#1987#0#PHP" expanded="false" />
-            <element signature="e#1993#2228#0#PHP" expanded="false" />
-            <element signature="e#2234#2911#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,18 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding>
-            <element signature="e#183#505#0#PHP" expanded="false" />
-            <element signature="e#515#1261#0#PHP" expanded="false" />
-            <element signature="e#1427#1547#0#PHP" expanded="false" />
-            <element signature="e#1553#1631#0#PHP" expanded="false" />
-            <element signature="e#1637#1717#0#PHP" expanded="false" />
-            <element signature="e#1723#1807#0#PHP" expanded="false" />
-            <element signature="e#1813#1897#0#PHP" expanded="false" />
-            <element signature="e#1903#1987#0#PHP" expanded="false" />
-            <element signature="e#1993#2228#0#PHP" expanded="false" />
-            <element signature="e#2234#2911#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,18 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding>
-            <element signature="e#183#505#0#PHP" expanded="false" />
-            <element signature="e#515#1261#0#PHP" expanded="false" />
-            <element signature="e#1427#1547#0#PHP" expanded="false" />
-            <element signature="e#1553#1631#0#PHP" expanded="false" />
-            <element signature="e#1637#1717#0#PHP" expanded="false" />
-            <element signature="e#1723#1807#0#PHP" expanded="false" />
-            <element signature="e#1813#1897#0#PHP" expanded="false" />
-            <element signature="e#1903#1987#0#PHP" expanded="false" />
-            <element signature="e#1993#2228#0#PHP" expanded="false" />
-            <element signature="e#2234#2911#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,18 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#183#505#0#PHP" expanded="false" />
-            <element signature="e#515#1261#0#PHP" expanded="false" />
-            <element signature="e#1427#1547#0#PHP" expanded="false" />
-            <element signature="e#1553#1631#0#PHP" expanded="false" />
-            <element signature="e#1637#1717#0#PHP" expanded="false" />
-            <element signature="e#1723#1807#0#PHP" expanded="false" />
-            <element signature="e#1813#1897#0#PHP" expanded="false" />
-            <element signature="e#1903#1987#0#PHP" expanded="false" />
-            <element signature="e#1993#2228#0#PHP" expanded="false" />
-            <element signature="e#2234#2911#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,13 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -1117,32 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/default/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="147" column="7" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/default/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding>
-            <element signature="e#183#505#0#PHP" expanded="false" />
-            <element signature="e#515#1261#0#PHP" expanded="false" />
-            <element signature="e#1427#1547#0#PHP" expanded="false" />
-            <element signature="e#1553#1631#0#PHP" expanded="false" />
-            <element signature="e#1637#1717#0#PHP" expanded="false" />
-            <element signature="e#1723#1807#0#PHP" expanded="false" />
-            <element signature="e#1813#1897#0#PHP" expanded="false" />
-            <element signature="e#1903#1987#0#PHP" expanded="false" />
-            <element signature="e#1993#2228#0#PHP" expanded="false" />
-            <element signature="e#2234#2911#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/default/models/Contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1150,10 +1051,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/default/models/Invite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/builders/GalleryAppBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/builders/PuzzleAppBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/builders/QueryAppBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/applications/FbApplication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/default/components/FacebookComponent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+        <state relative-caret-position="175">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="e#220#281#0#PHP" expanded="false" />
             <element signature="e#330#377#0#PHP" expanded="false" />
@@ -1189,7 +1140,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/default/models/Invite.php">
+    <entry file="file://$PROJECT_DIR$/apps/default/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/default/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/default/migrations/m160530_092024_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/default/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="137" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test/vendor/swiftmailer/swiftmailer/lib/classes/Swift.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1219,48 +1199,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/builders/GalleryAppBuilder.php">
+    <entry file="file://$PROJECT_DIR$/classes/AppGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="35" selection-end-column="11" />
+        <state relative-caret-position="-332">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/builders/PuzzleAppBuilder.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/builders/QueryAppBuilder.php">
+    <entry file="file://$PROJECT_DIR$/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="175">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/core/deploy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/applications/FbApplication.php">
+    <entry file="file://$PROJECT_DIR$/finish.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="497">
+          <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

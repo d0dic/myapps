@@ -8,7 +8,7 @@
 
 namespace app\components;
 
-use yii;
+use Yii;
 use app\models\User;
 use Facebook\Facebook;
 use yii\base\Component;

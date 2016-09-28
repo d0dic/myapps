@@ -11,6 +11,7 @@ require_once 'vendor/autoload.php';
 use app\classes\AppGenerator;
 
 session_start();
+$_SESSION['deployed'] = false;
 
 if (!$_POST) {
     header('Location: index.php');

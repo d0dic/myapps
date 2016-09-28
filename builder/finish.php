@@ -45,18 +45,29 @@ session_start();
         <h2>Your Facebook App in <a href="http://www.yiiframework.com/doc-2.0/guide-index.html">Yii 2 Framework</a>
             has just been created!</h2>
 
-        <div class="alert alert-danger">
-            <p><strong>Before</strong> you go to the link bellow you should open your <u>app folder</u> run cmd and type
-                <code>composer update</code> command.</p>
+        <div class="progress">
+            <div id="progres" class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60"
+                 aria-valuemin="0" aria-valuemax="100" style="width: <?= !$_SESSION['deployed'] ? '50' : '80' ?>%;">
+                Setup <?= !$_SESSION['deployed'] ? '50' : '80' ?>%
+            </div>
         </div>
 
+        <?php if (!$_SESSION['deployed']): ?>
+            <div class="alert alert-danger">
+                <p><strong>Before</strong> you go to the link bellow you should open your <u>app folder</u> run cmd and
+                    type
+                    <code>composer update</code> command, or click <a href="javascript:deploy(this)">here!</a></p>
+            </div>
+        <?php endif; ?>
+
         <div class="alert alert-danger">
-            <p><strong>After</strong> your project is set, you must setup the <u>database</u> by typing
-                <code>yii migrate</code> in the same console.</p>
+            <p><strong>Now</strong> after your project is set, you must setup the <u>database</u> by typing
+                <code>yii migrate</code> in your project console.</p>
         </div>
 
         <p class="text-right">
-            <a class="btn btn-success btn-lg" href="<?= $_SESSION['app_link'] ?>"> Go to Your App
+            <a class="btn btn-success btn-lg" href="<?= $_SESSION['deployed'] ? $_SESSION['app_link'] : '#' ?>"> Go to
+                Your App
                 <span class="glyphicon glyphicon-send"></span></a>
         </p>
     </div>
@@ -68,6 +79,17 @@ session_start();
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    function deploy(link) {
+        link.setAttribute('href', '#');
+        $('#progres').addClass('active');
+
+        location.href =
+            "<?= $_SESSION['app_link'] ?>/deploy.php";
+    }
+</script>
+
 </body>
 </html>
 
