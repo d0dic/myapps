@@ -46,7 +46,7 @@ class FbApplication extends Application
     }
 
     /**
-     * @return mixed
+     * @return array
      */
     public function getModels()
     {
@@ -54,7 +54,7 @@ class FbApplication extends Application
     }
 
     /**
-     * @return mixed
+     * @return array
      */
     public function getControllers()
     {
@@ -62,7 +62,15 @@ class FbApplication extends Application
     }
 
     /**
-     * @return mixed
+     * @return array
+     */
+    public function getComponents()
+    {
+        return $this->components;
+    }
+
+    /**
+     * @return array
      */
     public function getMigrations()
     {
@@ -70,7 +78,7 @@ class FbApplication extends Application
     }
 
     /**
-     * @return mixed
+     * @return array
      */
     public function getViews()
     {
