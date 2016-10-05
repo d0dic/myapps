@@ -50,6 +50,40 @@ class FbAppDeployer extends AppDeployer
     /**
      * @return boolean
      */
+    public function checkSources()
+    {
+         if(!$this->checkFiles($this->application->getRoot().'/components',
+            $this->application->getComponents())){
+             return false;
+         }
+
+         if(!$this->checkFiles($this->application->getRoot().'/migrations',
+             $this->application->getMigrations())){
+             return false;
+         }
+
+         if(!$this->checkFiles($this->application->getRoot().'/models',
+             $this->application->getModels())){
+             return false;
+         }
+
+         if(!$this->checkFiles($this->application->getRoot().'/controllers',
+             $this->application->getControllers())){
+             return false;
+         }
+
+         if(!$this->checkFiles($this->application->getRoot().'/views',
+             $this->application->getViews())) {
+             return false;
+         }
+
+        return true;
+
+    }
+
+    /**
+     * @return boolean
+     */
     public function deployDatabase()
     {
         $dbcon = new \PDO("mysql:host={$this->application->dbHost}",
@@ -328,5 +362,4 @@ return $config;';
         fwrite($webFile, $contents);
         fclose($webFile);
     }
-
 }

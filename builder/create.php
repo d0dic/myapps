@@ -22,14 +22,11 @@ $appGenerator->build($_POST['appType']);
 
 try{
     $appGenerator->loadParams($_POST);
+    $appGenerator->provide(__DIR__.'/../');
 } catch (Exception $exc){
 
     $_SESSION['message'] = $exc->getMessage();
     header('Location: ' . $_SERVER['HTTP_REFERER']);
-}
-
-if (!$appGenerator->provide(__DIR__.'/../')) {
-    die('Application not generated!');
 }
 
 $folder = $_POST['dbName'];

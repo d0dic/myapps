@@ -88,6 +88,9 @@ class AppGenerator
      */
     public function provide($destination)
     {
+        if (!$this->appDeployer->checkSources()) {
+            throw new \Exception($this->appDeployer->getErrors());
+        }
 
         if (!$this->appDeployer->deployDatabase()
         ) {

@@ -16,6 +16,11 @@ use app\classes\applications\Application;
 abstract class AppDeployer
 {
     /**
+     * @var array
+     */
+    protected $errors = [];
+
+    /**
      * @var Application
      */
     protected $application;
@@ -30,6 +35,11 @@ abstract class AppDeployer
      * @return boolean
      */
     abstract function deployDatabase();
+
+    /**
+     * @return boolean
+     */
+    abstract function checkSources();
 
     /**
      * @param string $destination
@@ -102,5 +112,37 @@ abstract class AppDeployer
             }
         }
         closedir($dir);
+    }
+
+    /**
+     * @param string $src
+     * @param array $list
+     * @return boolean
+     */
+    protected function checkFiles($src, $list){
+        $files = scandir($src);
+
+        foreach ($list as $file){
+            if (!in_array($file, $files)) {
+                $this->errors[] = "File $file is missing in $src";
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    /**
+     * @return string
+     */
+    public function getErrors()
+    {
+        $errorsString = "";
+
+        foreach ($this->errors as $error) {
+            $errorsString .= $error;
+        }
+
+        return $errorsString;
     }
 }
