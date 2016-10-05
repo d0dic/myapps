@@ -42,9 +42,9 @@ session_start();
 <div class="container">
 
     <div class="jumbotron">
-        <h1>Congratulations!</h1>
+        <h1> <?= !$_SESSION['deployed'] ? 'Congratulations' : 'Well done' ?>!</h1>
         <h2>Your Facebook App in <a href="http://www.yiiframework.com/doc-2.0/guide-index.html">Yii 2 Framework</a>
-            has just been created!</h2>
+            has just been <?= !$_SESSION['deployed'] ? 'created' : 'deployed' ?>!</h2>
 
         <div class="progress">
             <div id="progres" class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60"
@@ -57,18 +57,21 @@ session_start();
             <div class="alert alert-danger">
                 <p><strong>Before</strong> you go to the link bellow you should open your <u>app folder</u> run cmd and
                     type
-                    <code>composer update</code> command, or click <a href="javascript:deploy(this)">here!</a></p>
+                    <code>composer update</code> command, or click <a id="link" href="javascript:deploy()">here!</a></p>
             </div>
         <?php endif; ?>
 
+        <?php if ($_SESSION['deployed']): ?>
         <div class="alert alert-danger">
             <p><strong>Now</strong> after your project is set, you must setup the <u>database</u> by typing
                 <code>yii migrate</code> in your project console.</p>
         </div>
+        <?php endif; ?>
 
         <p class="text-right">
-            <a class="btn btn-success btn-lg" href="<?= $_SESSION['deployed'] ? $_SESSION['app_link'] : '#' ?>"> Go to
-                Your App
+            <a class="btn btn-success btn-lg"
+               href="<?= $_SESSION['deployed'] ? $_SESSION['app_link'] : '#' ?>"
+                <?= !$_SESSION['deployed'] ? 'disabled' : '' ?>> Go to Your App
                 <span class="glyphicon glyphicon-send"></span></a>
         </p>
     </div>
@@ -82,8 +85,8 @@ session_start();
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
-    function deploy(link) {
-        link.setAttribute('href', '#');
+    function deploy() {
+        $('#link').attr('href', '#');
         $('#progres').addClass('active');
 
         location.href =

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2eb31b43-4057-498c-bae6-e82f87f0e3f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/applications/FbApplication.php" afterPath="$PROJECT_DIR$/classes/applications/FbApplication.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/deployers/AppDeployer.php" afterPath="$PROJECT_DIR$/classes/deployers/AppDeployer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finish.php" afterPath="$PROJECT_DIR$/finish.php" />
     </list>
     <ignored path="appbuilder.iws" />
@@ -33,6 +31,18 @@
             <state relative-caret-position="350">
               <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="finish.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/finish.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+              <folding>
+                <element signature="e#6#89#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FbApplication.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FbApplication.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/applications/FbApplication.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="575">
+              <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
               <folding>
                 <element signature="e#128#435#0#PHP" expanded="false" />
                 <element signature="e#669#759#0#PHP" expanded="false" />
@@ -186,10 +196,10 @@
         <option value="$PROJECT_DIR$/apps/default/components/FacebookComponent.php" />
         <option value="$PROJECT_DIR$/create.php" />
         <option value="$PROJECT_DIR$/core/deploy.php" />
-        <option value="$PROJECT_DIR$/finish.php" />
         <option value="$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php" />
         <option value="$PROJECT_DIR$/classes/applications/FbApplication.php" />
         <option value="$PROJECT_DIR$/classes/deployers/AppDeployer.php" />
+        <option value="$PROJECT_DIR$/finish.php" />
       </list>
     </option>
   </component>
@@ -234,8 +244,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,80 +264,12 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builder" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builder" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factories" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builder" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deployers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builder" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/predavanja/diplomski" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -423,7 +365,10 @@
       <workItem from="1475071359187" duration="3177000" />
       <workItem from="1475093230499" duration="772000" />
       <workItem from="1475135207632" duration="7773000" />
-      <workItem from="1475149470993" duration="1340000" />
+      <workItem from="1475149470993" duration="2101000" />
+      <workItem from="1475233921106" duration="1414000" />
+      <workItem from="1475343675897" duration="22000" />
+      <workItem from="1475675860209" duration="1655000" />
     </task>
     <task id="LOCAL-00001" summary="appbuilder add in">
       <created>1474299034719</created>
@@ -614,17 +559,24 @@
       <option name="project" value="LOCAL" />
       <updated>1475093362494</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="builder small fixes and refactoring">
+      <created>1475152495150</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1475152495150</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125593000" />
+    <option name="totallyTimeSpent" value="129445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19762419" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20734341" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -655,7 +607,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="builder setup 90%" />
     <MESSAGE value="builder files addon" />
     <MESSAGE value="builder finished 95%" />
     <MESSAGE value="builder finished 97%" />
@@ -680,7 +631,8 @@
     <MESSAGE value="builder create deployment on click addon" />
     <MESSAGE value="builder merging" />
     <MESSAGE value="builder creation addons" />
-    <option name="LAST_COMMIT_MESSAGE" value="builder creation addons" />
+    <MESSAGE value="builder small fixes and refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder small fixes and refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -973,13 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finish.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/deploy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1019,32 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-          <folding>
-            <element signature="e#127#306#0#PHP" expanded="false" />
-            <element signature="e#429#607#0#PHP" expanded="false" />
-            <element signature="e#761#790#0#PHP" expanded="false" />
-            <element signature="e#819#891#0#PHP" expanded="false" />
-            <element signature="e#896#1032#0#PHP" expanded="false" />
-            <element signature="e#1038#1079#0#PHP" expanded="false" />
-            <element signature="e#1152#1217#0#PHP" expanded="false" />
-            <element signature="e#1223#1262#0#PHP" expanded="false" />
-            <element signature="e#1267#1374#0#PHP" expanded="false" />
-            <element signature="e#1380#1424#0#PHP" expanded="false" />
-            <element signature="e#1429#1573#0#PHP" expanded="false" />
-            <element signature="e#1579#1622#0#PHP" expanded="false" />
-            <element signature="e#1627#1766#0#PHP" expanded="false" />
-            <element signature="e#1772#1815#0#PHP" expanded="false" />
-            <element signature="e#1820#1959#0#PHP" expanded="false" />
-            <element signature="e#1965#2003#0#PHP" expanded="false" />
-            <element signature="e#2008#2110#0#PHP" expanded="false" />
-            <element signature="e#2116#2147#0#PHP" expanded="false" />
-            <element signature="e#2152#2498#0#PHP" expanded="false" />
-            <element signature="e#2263#2468#0#PHP" expanded="false" />
-            <element signature="e#2318#2458#0#PHP" expanded="false" />
-            <element signature="e#2504#2537#0#PHP" expanded="false" />
-            <element signature="e#2542#2754#0#PHP" expanded="false" />
-            <element signature="e#2613#2717#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1126,8 +1045,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/applications/FbApplication.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="575">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
           <folding>
             <element signature="e#128#435#0#PHP" expanded="false" />
             <element signature="e#669#759#0#PHP" expanded="false" />
@@ -1142,6 +1061,16 @@
             <element signature="e#1478#1555#0#PHP" expanded="false" />
             <element signature="e#1561#1593#0#PHP" expanded="false" />
             <element signature="e#1598#1665#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
