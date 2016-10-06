@@ -17,6 +17,9 @@ use app\assets\Database;
  */
 abstract class BaseModel
 {
+    /**
+     * @var Database $db_con
+     */
     private $db_conn;
 
     /**
@@ -25,7 +28,7 @@ abstract class BaseModel
     public function __construct(){}
 
     /**
-     * @return mixed
+     * @return string
      */
     abstract function table();
 
@@ -65,6 +68,15 @@ abstract class BaseModel
     abstract function read($id = null);
 
     /**
+     * Return all records from table
+     */
+    public function readAll()
+    {
+        return $this->run("SELECT * FROM {$this->table()}")
+            ->fetchAll(\PDO::FETCH_ASSOC);
+    }
+
+    /**
      * @return bool
      */
     public function validate(){
@@ -77,17 +89,20 @@ abstract class BaseModel
     }
 
     /**
+     * Execute CRUD operation
+     * @param string $query
+     * @return mixed
+     */
+    protected function run($query){
+        $this->setConnection();
+        return $this->db_conn->query($query);
+    }
+
+    /**
      * Database connection setup
      */
     private function setConnection(){
         $this->db_conn =
             Database::getInstance()->connection;
-    }
-
-    /**
-     * Execute CRUD operation
-     */
-    private function execute(){
-        $this->setConnection();
     }
 }

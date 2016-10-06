@@ -63,6 +63,7 @@
     </div>
 
     <?php dump($user); ?>
+    <?php dump($user->readAll()); ?>
 
 </div><!-- /.container -->
 

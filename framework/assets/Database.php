@@ -11,6 +11,7 @@ namespace app\assets;
 /**
  * Class Database
  * @package app\assets
+ * @property \PDO $connection
  */
 class Database
 {

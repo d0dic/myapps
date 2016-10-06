@@ -87,7 +87,9 @@ class User extends BaseModel implements Identity
      */
     function read($id = null)
     {
-        // TODO: Implement read() method.
+        return $this->run(
+            "SELECT * FROM {$this->table()} WHERE id={$id}")
+            ->fetch(\PDO::FETCH_ASSOC);
     }
 
     /**
