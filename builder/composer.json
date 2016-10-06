@@ -17,6 +17,7 @@
   },
   "require": {
     "phpmailer/phpmailer": "^5.2",
-    "codeception/codeception": "^2.2"
+    "codeception/codeception": "^2.2",
+    "guzzlehttp/guzzle": "^6.2"
   }
 }
