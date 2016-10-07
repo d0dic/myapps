@@ -14,7 +14,8 @@
         "classmap": [
             "adapter",
             "factory",
-            "observer"
+            "observer",
+            "decorator"
         ]
     },
     "require": {}
