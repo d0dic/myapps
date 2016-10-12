@@ -15,7 +15,8 @@
             "adapter",
             "factory",
             "observer",
-            "decorator"
+            "decorator",
+            "builder"
         ]
     },
     "require": {}

@@ -105,6 +105,7 @@ function structurePreview($dir)
         <li class="active"><a href="#factory" role="tab" data-toggle="tab">Factory Pattern</a></li>
         <li><a href="#adapter" role="tab" data-toggle="tab">Adapter Pattern</a></li>
         <li><a href="#observer" role="tab" data-toggle="tab">Observer pattern</a></li>
+        <li><a href="#builder" role="tab" data-toggle="tab">Builder pattern</a></li>
         <li><a href="#decorator" role="tab" data-toggle="tab">Decorator pattern</a></li>
     </ul>
     <!-- TAB CONTENT -->
@@ -125,6 +126,12 @@ function structurePreview($dir)
             <h2>Observer pattern</h2>
             <pre>
                 <?php include 'observer/test.php'; ?>
+            </pre>
+        </div>
+        <div class="tab-pane fade" id="builder">
+            <h2>Builder pattern</h2>
+            <pre>
+                <?php include 'builder/test.php'; ?>
             </pre>
         </div>
         <div class="tab-pane fade" id="decorator">
