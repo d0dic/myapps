@@ -27,7 +27,7 @@ class BMWCarBuilder extends CarBuilder
      */
     function buildEngine()
     {
-        // TODO: Implement buildEngine() method.
+        $this->car->setEngine(['Diesel', '2.0l', '150hp']);
     }
 
     /**
@@ -35,7 +35,7 @@ class BMWCarBuilder extends CarBuilder
      */
     function buildSchell()
     {
-        // TODO: Implement buildSchell() method.
+        $this->car->setSchell(['2x4,5m', 'Gray', 'Iron']);
     }
 
     /**
@@ -43,7 +43,7 @@ class BMWCarBuilder extends CarBuilder
      */
     function buildEnterier()
     {
-        // TODO: Implement buildEnterier() method.
+        $this->car->setEnterier(['Leather', 'Black']);
     }
 
     /**
@@ -51,6 +51,6 @@ class BMWCarBuilder extends CarBuilder
      */
     function buildWheels()
     {
-        // TODO: Implement buildWheels() method.
+        $this->car->setWheels(['17"', '215/55 R17']);
     }
 }

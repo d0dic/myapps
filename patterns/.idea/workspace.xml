@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c6bcc6a-26ef-46af-a84d-537e0c13c6dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder/AudiCarBuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder/BMWCarBuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder/Car.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder/CarBuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder/CarFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder/MercedesCarBuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder/test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../builder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../builder/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder/AudiCarBuilder.php" afterPath="$PROJECT_DIR$/builder/AudiCarBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder/BMWCarBuilder.php" afterPath="$PROJECT_DIR$/builder/BMWCarBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder/MercedesCarBuilder.php" afterPath="$PROJECT_DIR$/builder/MercedesCarBuilder.php" />
     </list>
     <ignored path="patterns.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,17 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="107" column="67" selection-start-line="107" selection-start-column="67" selection-end-line="107" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/builder/test.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
@@ -89,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AudiCarBuilder.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AudiCarBuilder.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/builder/AudiCarBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="676">
+              <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -102,8 +82,8 @@
       <file leaf-file-name="BMWCarBuilder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/builder/BMWCarBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="576">
+              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -112,8 +92,8 @@
       <file leaf-file-name="MercedesCarBuilder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/builder/MercedesCarBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="576">
+              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -171,10 +151,10 @@
         <option value="$PROJECT_DIR$/builder/CarFactory.php" />
         <option value="$PROJECT_DIR$/builder/Car.php" />
         <option value="$PROJECT_DIR$/builder/CarBuilder.php" />
-        <option value="$PROJECT_DIR$/builder/AudiCarBuilder.php" />
+        <option value="$PROJECT_DIR$/builder/test.php" />
         <option value="$PROJECT_DIR$/builder/BMWCarBuilder.php" />
         <option value="$PROJECT_DIR$/builder/MercedesCarBuilder.php" />
-        <option value="$PROJECT_DIR$/builder/test.php" />
+        <option value="$PROJECT_DIR$/builder/AudiCarBuilder.php" />
       </list>
     </option>
   </component>
@@ -309,7 +289,7 @@
       <workItem from="1476193608654" duration="1211000" />
       <workItem from="1476264035682" duration="1437000" />
       <workItem from="1476265726866" duration="5400000" />
-      <workItem from="1476271873682" duration="1033000" />
+      <workItem from="1476271873682" duration="1311000" />
     </task>
     <task id="LOCAL-00001" summary="patterns test examples for factory and observer add in">
       <created>1474209101583</created>
@@ -332,17 +312,24 @@
       <option name="project" value="LOCAL" />
       <updated>1475852706600</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="patterns test examples for builder add in">
+      <created>1476272929870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1476272929870</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38144000" />
+    <option name="totallyTimeSpent" value="38422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19654427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19654427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -376,7 +363,8 @@
     <MESSAGE value="patterns test examples for factory and observer add in" />
     <MESSAGE value="patterns test examples for adapter add in" />
     <MESSAGE value="patterns test examples for decorator add in" />
-    <option name="LAST_COMMIT_MESSAGE" value="patterns test examples for decorator add in" />
+    <MESSAGE value="patterns test examples for builder add in" />
+    <option name="LAST_COMMIT_MESSAGE" value="patterns test examples for builder add in" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -586,6 +574,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -608,6 +597,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-386">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -615,6 +605,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -657,30 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/builder/AudiCarBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="19" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/builder/BMWCarBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/builder/MercedesCarBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/decorator/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -696,6 +663,30 @@
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/BMWCarBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/MercedesCarBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/AudiCarBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>

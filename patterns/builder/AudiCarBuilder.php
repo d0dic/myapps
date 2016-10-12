@@ -51,6 +51,6 @@ class AudiCarBuilder extends CarBuilder
      */
     function buildWheels()
     {
-        $this->car->setWheels(['17"', '205/55 R16']);
+        $this->car->setWheels(['16"', '205/55 R16']);
     }
 }
