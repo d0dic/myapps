@@ -95,7 +95,7 @@ function structurePreview($dir)
 <div class="container">
 
     <div class="starter-template">
-        <h1>PHP Design patterns -c Examples</h1>
+        <h1>PHP Design patterns Examples</h1>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a
             mostly barebones HTML document.</p>
     </div>
@@ -107,6 +107,7 @@ function structurePreview($dir)
         <li><a href="#observer" role="tab" data-toggle="tab">Observer pattern</a></li>
         <li><a href="#builder" role="tab" data-toggle="tab">Builder pattern</a></li>
         <li><a href="#decorator" role="tab" data-toggle="tab">Decorator pattern</a></li>
+        <li><a href="#command" role="tab" data-toggle="tab">Command pattern</a></li>
     </ul>
     <!-- TAB CONTENT -->
     <div class="tab-content">
@@ -138,6 +139,12 @@ function structurePreview($dir)
             <h2>Decorator pattern</h2>
             <pre>
                 <?php include 'decorator/test.php'; ?>
+            </pre>
+        </div>
+        <div class="tab-pane fade" id="command">
+            <h2>Command pattern</h2>
+            <pre>
+                <?php include 'command/test.php'; ?>
             </pre>
         </div>
     </div>

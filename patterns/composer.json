@@ -16,6 +16,7 @@
             "factory",
             "observer",
             "decorator",
+            "command",
             "builder"
         ]
     },
