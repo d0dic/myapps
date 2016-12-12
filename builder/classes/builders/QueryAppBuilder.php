@@ -23,29 +23,29 @@ class QueryAppBuilder extends FbAppBuilder
     function buildModels()
     {
         $this->app->setModels([
-            'Form', 'Question', 'Answer', 'Reply'
+            'Form.php', 'Question.php', 'Answer.php', 'Reply.php'
         ]);
     }
 
     function buildControllers()
     {
         $this->app->setControllers([
-            'QuestionController'
+            'QuestionController.php'
         ]);
     }
     
     function buildComponents()
     {
         $this->app->setComponents([
-            'FacebookComponent'
+            'FacebookComponent.php'
         ]);
     }
 
     function buildMigrations()
     {
-        $this->app->setMigrations([
-            'form', 'question', 'answer', 'reply'
-        ]);
+//        $this->app->setMigrations([
+//            'form', 'question', 'answer', 'reply'
+//        ]);
     }
 
     function buildViews()

@@ -25,29 +25,30 @@ class PuzzleAppBuilder extends FbAppBuilder
     function buildModels()
     {
         $this->app->setModels([
-            'Game', 'Topscore', 'Puzzle', 'PuzzleSearch', 'Piece'
+            'Game.php', 'Topscore.php', 'Puzzle.php',
+            'PuzzleSearch.php', 'Piece.php'
         ]);
     }
 
     function buildControllers()
     {
         $this->app->setControllers([
-            'PuzzleController'
+            'PuzzleController.php'
         ]);
     }
     
     function buildComponents()
     {
         $this->app->setComponents([
-            'FacebookComponent'
+            'FacebookComponent.php'
         ]);
     }
 
     function buildMigrations()
     {
-        $this->app->setMigrations([
-            'game', 'topscore', 'piece', 'puzzle'
-        ]);
+//        $this->app->setMigrations([
+//            'game', 'topscore', 'piece', 'puzzle'
+//        ]);
     }
 
     function buildViews()

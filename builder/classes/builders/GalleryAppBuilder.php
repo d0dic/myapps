@@ -25,29 +25,29 @@ class GalleryAppBuilder extends FbAppBuilder
     function buildModels()
     {
         $this->app->setModels([
-            'Poster', 'PosterSearch', 'Like'
+            'Poster.php', 'PosterSearch.php', 'Like.php'
         ]);
     }
 
     function buildControllers()
     {
         $this->app->setControllers([
-            'PosterController'
+            'PosterController.php'
         ]);
     }
     
     function buildComponents()
     {
         $this->app->setComponents([
-            'FacebookComponent'
+            'FacebookComponent.php'
         ]);
     }
 
     function buildMigrations()
     {
-        $this->app->setMigrations([
-            'poster', 'like'
-        ]);
+//        $this->app->setMigrations([
+//            'poster', 'like'
+//        ]);
     }
 
     function buildViews()
