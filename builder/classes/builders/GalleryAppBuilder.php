@@ -46,14 +46,14 @@ class GalleryAppBuilder extends FbAppBuilder
     function buildMigrations()
     {
 //        $this->app->setMigrations([
-//            'poster', 'like'
+//            'm160906_111235_poster.php', 'm160906_144443_like.php'
 //        ]);
     }
 
     function buildViews()
     {
         $this->app->setViews([
-            'poster'
+            'poster' // view folders only
         ]);
     }
 }

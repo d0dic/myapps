@@ -44,14 +44,15 @@ class QueryAppBuilder extends FbAppBuilder
     function buildMigrations()
     {
 //        $this->app->setMigrations([
-//            'form', 'question', 'answer', 'reply'
+//            'm160831_120313_form.php', 'm160831_120347_question.php',
+//            'm160831_120355_answer.php', 'm160902_112903_reply.php'
 //        ]);
     }
 
     function buildViews()
     {
         $this->app->setViews([
-            'question'
+            'question' // view folders only
         ]);
     }
 }

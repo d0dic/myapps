@@ -144,8 +144,7 @@ if ($host == \'' . $_SERVER['HTTP_HOST'] . '\') {
         \'password\' => \'PASSWORD\',
         \'charset\' => \'utf8\',
     ];
-}
-';
+}';
 
         fwrite($paramsFile, $contents);
         fclose($paramsFile);
@@ -211,7 +210,6 @@ if (YII_ENV_DEV) {
 }
 
 return $config;';
-
 
         fwrite($paramsFile, $contents);
         fclose($paramsFile);

@@ -47,14 +47,15 @@ class PuzzleAppBuilder extends FbAppBuilder
     function buildMigrations()
     {
 //        $this->app->setMigrations([
-//            'game', 'topscore', 'piece', 'puzzle'
+//            'm160908_102648_game.php', 'm160908_104757_topscore.php',
+//            'm160908_150957_piece.php', 'm160908_143843_puzzle.php'
 //        ]);
     }
 
     function buildViews()
     {
         $this->app->setViews([
-            'puzzle'
+            'puzzle' // view folders only
         ]);
     }
 }
