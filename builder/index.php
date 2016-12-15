@@ -44,7 +44,7 @@
 
     <div class="row">
         <div class="col-md-offset-3 col-md-6">
-            <form action="create.php" method="post" role="form" autocomplete="off">
+            <form action="create.php" method="post" role="form">
                 <div class="panel panel-danger">
                     <div class="panel-body">
                         <legend>App Properties</legend>
