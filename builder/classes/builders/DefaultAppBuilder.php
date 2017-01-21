@@ -67,7 +67,7 @@ class DefaultAppBuilder extends FbAppBuilder
     function buildViews()
     {
         $this->app->setViews([
-            'user'
+            'user' // view folders only
         ]);
     }
 }

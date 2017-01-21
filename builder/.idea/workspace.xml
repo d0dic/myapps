@@ -1,299 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2eb31b43-4057-498c-bae6-e82f87f0e3f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/favicon.ico" afterPath="$PROJECT_DIR$/core/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/builder.iml" afterPath="$PROJECT_DIR$/.idea/builder.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="2eb31b43-4057-498c-bae6-e82f87f0e3f6" name="Default" comment="builder migrations refactoring">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/components/FacebookComponent.php" afterPath="$PROJECT_DIR$/apps/default/components/FacebookComponent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/controllers/FacebookController.php" afterPath="$PROJECT_DIR$/apps/default/controllers/FacebookController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/controllers/SiteController.php" afterPath="$PROJECT_DIR$/apps/default/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/controllers/UserController.php" afterPath="$PROJECT_DIR$/apps/default/controllers/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/migrations/m160530_092024_user.php" afterPath="$PROJECT_DIR$/apps/default/migrations/m160530_092024_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/migrations/m160530_092744_invite.php" afterPath="$PROJECT_DIR$/apps/default/migrations/m160530_092744_invite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/migrations/m160530_093021_contact.php" afterPath="$PROJECT_DIR$/apps/default/migrations/m160530_093021_contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/migrations/m160927_150642_share.php" afterPath="$PROJECT_DIR$/apps/default/migrations/m160927_150642_share.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/models/Contact.php" afterPath="$PROJECT_DIR$/apps/default/models/Contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/models/Invite.php" afterPath="$PROJECT_DIR$/apps/default/models/Invite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/models/Share.php" afterPath="$PROJECT_DIR$/apps/default/models/Share.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/models/User.php" afterPath="$PROJECT_DIR$/apps/default/models/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/models/UserSearch.php" afterPath="$PROJECT_DIR$/apps/default/models/UserSearch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/layouts/main.php" afterPath="$PROJECT_DIR$/apps/default/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/site/contact.php" afterPath="$PROJECT_DIR$/apps/default/views/site/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/site/error.php" afterPath="$PROJECT_DIR$/apps/default/views/site/error.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/site/game.php" afterPath="$PROJECT_DIR$/apps/default/views/site/game.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/site/home.php" afterPath="$PROJECT_DIR$/apps/default/views/site/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/site/index.php" afterPath="$PROJECT_DIR$/apps/default/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/site/result.php" afterPath="$PROJECT_DIR$/apps/default/views/site/result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/site/rewards.php" afterPath="$PROJECT_DIR$/apps/default/views/site/rewards.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/site/rules.php" afterPath="$PROJECT_DIR$/apps/default/views/site/rules.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/site/toplist.php" afterPath="$PROJECT_DIR$/apps/default/views/site/toplist.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/site/winners.php" afterPath="$PROJECT_DIR$/apps/default/views/site/winners.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/user/_form.php" afterPath="$PROJECT_DIR$/apps/default/views/user/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/user/_search.php" afterPath="$PROJECT_DIR$/apps/default/views/user/_search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/user/create.php" afterPath="$PROJECT_DIR$/apps/default/views/user/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/user/index.php" afterPath="$PROJECT_DIR$/apps/default/views/user/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/user/update.php" afterPath="$PROJECT_DIR$/apps/default/views/user/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/views/user/view.php" afterPath="$PROJECT_DIR$/apps/default/views/user/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/components/FacebookComponent.php" afterPath="$PROJECT_DIR$/apps/gallery/components/FacebookComponent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/controllers/FacebookController.php" afterPath="$PROJECT_DIR$/apps/gallery/controllers/FacebookController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/controllers/PosterController.php" afterPath="$PROJECT_DIR$/apps/gallery/controllers/PosterController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/controllers/SiteController.php" afterPath="$PROJECT_DIR$/apps/gallery/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/migrations/m160530_092024_user.php" afterPath="$PROJECT_DIR$/apps/gallery/migrations/m160530_092024_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/migrations/m160530_092744_invite.php" afterPath="$PROJECT_DIR$/apps/gallery/migrations/m160530_092744_invite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/migrations/m160530_093021_contact.php" afterPath="$PROJECT_DIR$/apps/gallery/migrations/m160530_093021_contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/migrations/m160906_111235_poster.php" afterPath="$PROJECT_DIR$/apps/gallery/migrations/m160906_111235_poster.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/migrations/m160906_144443_like.php" afterPath="$PROJECT_DIR$/apps/gallery/migrations/m160906_144443_like.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/migrations/m160927_150642_share.php" afterPath="$PROJECT_DIR$/apps/gallery/migrations/m160927_150642_share.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/models/Contact.php" afterPath="$PROJECT_DIR$/apps/gallery/models/Contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/models/Invite.php" afterPath="$PROJECT_DIR$/apps/gallery/models/Invite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/models/Like.php" afterPath="$PROJECT_DIR$/apps/gallery/models/Like.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/models/Poster.php" afterPath="$PROJECT_DIR$/apps/gallery/models/Poster.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/models/PosterSearch.php" afterPath="$PROJECT_DIR$/apps/gallery/models/PosterSearch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/models/Share.php" afterPath="$PROJECT_DIR$/apps/gallery/models/Share.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/models/User.php" afterPath="$PROJECT_DIR$/apps/gallery/models/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/layouts/main.php" afterPath="$PROJECT_DIR$/apps/gallery/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/poster/_form.php" afterPath="$PROJECT_DIR$/apps/gallery/views/poster/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/poster/_search.php" afterPath="$PROJECT_DIR$/apps/gallery/views/poster/_search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/poster/create.php" afterPath="$PROJECT_DIR$/apps/gallery/views/poster/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/poster/index.php" afterPath="$PROJECT_DIR$/apps/gallery/views/poster/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/poster/update.php" afterPath="$PROJECT_DIR$/apps/gallery/views/poster/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/poster/view.php" afterPath="$PROJECT_DIR$/apps/gallery/views/poster/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/contact.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/create.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/data.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/error.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/error.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/gallery.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/game.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/game.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/home.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/index.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/login.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/poster.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/poster.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/preview.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/preview.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/result.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/rewards.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/rewards.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/rules.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/rules.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/toplist.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/toplist.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/views/site/winners.php" afterPath="$PROJECT_DIR$/apps/gallery/views/site/winners.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/components/FacebookComponent.php" afterPath="$PROJECT_DIR$/apps/puzzle/components/FacebookComponent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/controllers/FacebookController.php" afterPath="$PROJECT_DIR$/apps/puzzle/controllers/FacebookController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/controllers/PuzzleController.php" afterPath="$PROJECT_DIR$/apps/puzzle/controllers/PuzzleController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/controllers/SiteController.php" afterPath="$PROJECT_DIR$/apps/puzzle/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/migrations/m160530_092024_user.php" afterPath="$PROJECT_DIR$/apps/puzzle/migrations/m160530_092024_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/migrations/m160530_092744_invite.php" afterPath="$PROJECT_DIR$/apps/puzzle/migrations/m160530_092744_invite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/migrations/m160530_093021_contact.php" afterPath="$PROJECT_DIR$/apps/puzzle/migrations/m160530_093021_contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/migrations/m160908_102648_game.php" afterPath="$PROJECT_DIR$/apps/puzzle/migrations/m160908_102648_game.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/migrations/m160908_104757_topscore.php" afterPath="$PROJECT_DIR$/apps/puzzle/migrations/m160908_104757_topscore.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/migrations/m160908_143843_puzzle.php" afterPath="$PROJECT_DIR$/apps/puzzle/migrations/m160908_143843_puzzle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/migrations/m160908_150957_piece.php" afterPath="$PROJECT_DIR$/apps/puzzle/migrations/m160908_150957_piece.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/migrations/m160927_150642_share.php" afterPath="$PROJECT_DIR$/apps/puzzle/migrations/m160927_150642_share.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/models/Contact.php" afterPath="$PROJECT_DIR$/apps/puzzle/models/Contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/models/Game.php" afterPath="$PROJECT_DIR$/apps/puzzle/models/Game.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/models/Invite.php" afterPath="$PROJECT_DIR$/apps/puzzle/models/Invite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/models/Piece.php" afterPath="$PROJECT_DIR$/apps/puzzle/models/Piece.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/models/Puzzle.php" afterPath="$PROJECT_DIR$/apps/puzzle/models/Puzzle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/models/PuzzleSearch.php" afterPath="$PROJECT_DIR$/apps/puzzle/models/PuzzleSearch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/models/Share.php" afterPath="$PROJECT_DIR$/apps/puzzle/models/Share.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/models/Topscore.php" afterPath="$PROJECT_DIR$/apps/puzzle/models/Topscore.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/models/User.php" afterPath="$PROJECT_DIR$/apps/puzzle/models/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/layouts/main.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/puzzle/_form.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/puzzle/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/puzzle/_search.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/puzzle/_search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/puzzle/create.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/puzzle/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/puzzle/index.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/puzzle/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/puzzle/update.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/puzzle/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/puzzle/view.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/puzzle/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/site/contact.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/site/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/site/error.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/site/error.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/site/fail.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/site/fail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/site/game.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/site/game.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/site/home.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/site/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/site/index.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/site/result.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/site/result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/site/rewards.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/site/rewards.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/site/rules.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/site/rules.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/site/toplist.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/site/toplist.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/views/site/winners.php" afterPath="$PROJECT_DIR$/apps/puzzle/views/site/winners.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/components/FacebookComponent.php" afterPath="$PROJECT_DIR$/apps/query/components/FacebookComponent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/controllers/FacebookController.php" afterPath="$PROJECT_DIR$/apps/query/controllers/FacebookController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/controllers/QuestionController.php" afterPath="$PROJECT_DIR$/apps/query/controllers/QuestionController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/controllers/SiteController.php" afterPath="$PROJECT_DIR$/apps/query/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/migrations/m160530_092024_user.php" afterPath="$PROJECT_DIR$/apps/query/migrations/m160530_092024_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/migrations/m160530_092744_invite.php" afterPath="$PROJECT_DIR$/apps/query/migrations/m160530_092744_invite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/migrations/m160530_093021_contact.php" afterPath="$PROJECT_DIR$/apps/query/migrations/m160530_093021_contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/migrations/m160831_120313_form.php" afterPath="$PROJECT_DIR$/apps/query/migrations/m160831_120313_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/migrations/m160831_120347_question.php" afterPath="$PROJECT_DIR$/apps/query/migrations/m160831_120347_question.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/migrations/m160831_120355_answer.php" afterPath="$PROJECT_DIR$/apps/query/migrations/m160831_120355_answer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/migrations/m160831_120434_topscore.php" afterPath="$PROJECT_DIR$/apps/query/migrations/m160831_120434_topscore.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/migrations/m160902_112903_reply.php" afterPath="$PROJECT_DIR$/apps/query/migrations/m160902_112903_reply.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/migrations/m160927_150642_share.php" afterPath="$PROJECT_DIR$/apps/query/migrations/m160927_150642_share.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/models/Answer.php" afterPath="$PROJECT_DIR$/apps/query/models/Answer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/models/AnswerSearch.php" afterPath="$PROJECT_DIR$/apps/query/models/AnswerSearch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/models/Contact.php" afterPath="$PROJECT_DIR$/apps/query/models/Contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/models/Form.php" afterPath="$PROJECT_DIR$/apps/query/models/Form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/models/Invite.php" afterPath="$PROJECT_DIR$/apps/query/models/Invite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/models/Question.php" afterPath="$PROJECT_DIR$/apps/query/models/Question.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/models/QuestionSearch.php" afterPath="$PROJECT_DIR$/apps/query/models/QuestionSearch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/models/Reply.php" afterPath="$PROJECT_DIR$/apps/query/models/Reply.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/models/Share.php" afterPath="$PROJECT_DIR$/apps/query/models/Share.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/models/Topscore.php" afterPath="$PROJECT_DIR$/apps/query/models/Topscore.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/models/User.php" afterPath="$PROJECT_DIR$/apps/query/models/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/layouts/main.php" afterPath="$PROJECT_DIR$/apps/query/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/question/_form.php" afterPath="$PROJECT_DIR$/apps/query/views/question/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/question/_search.php" afterPath="$PROJECT_DIR$/apps/query/views/question/_search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/question/create.php" afterPath="$PROJECT_DIR$/apps/query/views/question/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/question/index.php" afterPath="$PROJECT_DIR$/apps/query/views/question/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/question/update.php" afterPath="$PROJECT_DIR$/apps/query/views/question/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/question/view.php" afterPath="$PROJECT_DIR$/apps/query/views/question/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/site/contact.php" afterPath="$PROJECT_DIR$/apps/query/views/site/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/site/error.php" afterPath="$PROJECT_DIR$/apps/query/views/site/error.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/site/game.php" afterPath="$PROJECT_DIR$/apps/query/views/site/game.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/site/home.php" afterPath="$PROJECT_DIR$/apps/query/views/site/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/site/index.php" afterPath="$PROJECT_DIR$/apps/query/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/site/result.php" afterPath="$PROJECT_DIR$/apps/query/views/site/result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/site/rewards.php" afterPath="$PROJECT_DIR$/apps/query/views/site/rewards.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/site/rules.php" afterPath="$PROJECT_DIR$/apps/query/views/site/rules.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/site/toplist.php" afterPath="$PROJECT_DIR$/apps/query/views/site/toplist.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/views/site/winners.php" afterPath="$PROJECT_DIR$/apps/query/views/site/winners.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/AppGenerator.php" afterPath="$PROJECT_DIR$/classes/AppGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/applications/Application.php" afterPath="$PROJECT_DIR$/classes/applications/Application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/applications/FbApplication.php" afterPath="$PROJECT_DIR$/classes/applications/FbApplication.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php" afterPath="$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/builders/FbAppBuilder.php" afterPath="$PROJECT_DIR$/classes/builders/FbAppBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/builders/GalleryAppBuilder.php" afterPath="$PROJECT_DIR$/classes/builders/GalleryAppBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/builders/PuzzleAppBuilder.php" afterPath="$PROJECT_DIR$/classes/builders/PuzzleAppBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/builders/QueryAppBuilder.php" afterPath="$PROJECT_DIR$/classes/builders/QueryAppBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/deployers/AppDeployer.php" afterPath="$PROJECT_DIR$/classes/deployers/AppDeployer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/deployers/FbAppDeployer.php" afterPath="$PROJECT_DIR$/classes/deployers/FbAppDeployer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/factories/AppFactory.php" afterPath="$PROJECT_DIR$/classes/factories/AppFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/factories/FbAppFactory.php" afterPath="$PROJECT_DIR$/classes/factories/FbAppFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeception.yml" afterPath="$PROJECT_DIR$/codeception.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/.htaccess" afterPath="$PROJECT_DIR$/core/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/LICENSE.md" afterPath="$PROJECT_DIR$/core/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/README.md" afterPath="$PROJECT_DIR$/core/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/assets/AppAsset.php" afterPath="$PROJECT_DIR$/core/assets/AppAsset.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/composer.json" afterPath="$PROJECT_DIR$/core/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/composer.lock" afterPath="$PROJECT_DIR$/core/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/deploy.php" afterPath="$PROJECT_DIR$/core/deploy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/index.php" afterPath="$PROJECT_DIR$/core/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/requirements.php" afterPath="$PROJECT_DIR$/core/requirements.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/robots.txt" afterPath="$PROJECT_DIR$/core/robots.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/runtime/.gitignore" afterPath="$PROJECT_DIR$/core/runtime/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/static/css/main.css" afterPath="$PROJECT_DIR$/core/static/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/static/js/holder.js" afterPath="$PROJECT_DIR$/core/static/js/holder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/static/js/main.js" afterPath="$PROJECT_DIR$/core/static/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/views/addons/facebook.php" afterPath="$PROJECT_DIR$/core/views/addons/facebook.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/views/layouts/main.php" afterPath="$PROJECT_DIR$/core/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/yii" afterPath="$PROJECT_DIR$/core/yii" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/yii.bat" afterPath="$PROJECT_DIR$/core/yii.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create.php" afterPath="$PROJECT_DIR$/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finish.php" afterPath="$PROJECT_DIR$/finish.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_bootstrap.php" afterPath="$PROJECT_DIR$/tests/_bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_data/dump.sql" afterPath="$PROJECT_DIR$/tests/_data/dump.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_output/.gitignore" afterPath="$PROJECT_DIR$/tests/_output/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_support/AcceptanceTester.php" afterPath="$PROJECT_DIR$/tests/_support/AcceptanceTester.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_support/FunctionalTester.php" afterPath="$PROJECT_DIR$/tests/_support/FunctionalTester.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_support/Helper/Acceptance.php" afterPath="$PROJECT_DIR$/tests/_support/Helper/Acceptance.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_support/Helper/Functional.php" afterPath="$PROJECT_DIR$/tests/_support/Helper/Functional.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_support/Helper/Unit.php" afterPath="$PROJECT_DIR$/tests/_support/Helper/Unit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_support/UnitTester.php" afterPath="$PROJECT_DIR$/tests/_support/UnitTester.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_support/_generated/AcceptanceTesterActions.php" afterPath="$PROJECT_DIR$/tests/_support/_generated/AcceptanceTesterActions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_support/_generated/FunctionalTesterActions.php" afterPath="$PROJECT_DIR$/tests/_support/_generated/FunctionalTesterActions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/_support/_generated/UnitTesterActions.php" afterPath="$PROJECT_DIR$/tests/_support/_generated/UnitTesterActions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/acceptance.suite.yml" afterPath="$PROJECT_DIR$/tests/acceptance.suite.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/acceptance/BuildFailureCept.php" afterPath="$PROJECT_DIR$/tests/acceptance/BuildFailureCept.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/acceptance/BuildSuccessCept.php" afterPath="$PROJECT_DIR$/tests/acceptance/BuildSuccessCept.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/acceptance/_bootstrap.php" afterPath="$PROJECT_DIR$/tests/acceptance/_bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/functional.suite.yml" afterPath="$PROJECT_DIR$/tests/functional.suite.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/functional/_bootstrap.php" afterPath="$PROJECT_DIR$/tests/functional/_bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit.suite.yml" afterPath="$PROJECT_DIR$/tests/unit.suite.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit/_bootstrap.php" afterPath="$PROJECT_DIR$/tests/unit/_bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/.gitignore" afterPath="$PROJECT_DIR$/../framework/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/.htaccess" afterPath="$PROJECT_DIR$/../framework/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../framework/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/.idea/framework.iml" afterPath="$PROJECT_DIR$/../framework/.idea/framework.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/.idea/modules.xml" afterPath="$PROJECT_DIR$/../framework/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../framework/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../framework/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/assets/Database.php" afterPath="$PROJECT_DIR$/../framework/assets/Database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/assets/Identity.php" afterPath="$PROJECT_DIR$/../framework/assets/Identity.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/assets/Mailer.php" afterPath="$PROJECT_DIR$/../framework/assets/Mailer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/assets/Router.php" afterPath="$PROJECT_DIR$/../framework/assets/Router.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/assets/Session.php" afterPath="$PROJECT_DIR$/../framework/assets/Session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/composer.json" afterPath="$PROJECT_DIR$/../framework/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/composer.lock" afterPath="$PROJECT_DIR$/../framework/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/config/db.php" afterPath="$PROJECT_DIR$/../framework/config/db.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/config/mail.php" afterPath="$PROJECT_DIR$/../framework/config/mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/config/params.php" afterPath="$PROJECT_DIR$/../framework/config/params.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/config/routes.php" afterPath="$PROJECT_DIR$/../framework/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/controllers/BaseController.php" afterPath="$PROJECT_DIR$/../framework/controllers/BaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/controllers/FrontController.php" afterPath="$PROJECT_DIR$/../framework/controllers/FrontController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/index.php" afterPath="$PROJECT_DIR$/../framework/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/models/BaseModel.php" afterPath="$PROJECT_DIR$/../framework/models/BaseModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/models/User.php" afterPath="$PROJECT_DIR$/../framework/models/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/views/front/about.php" afterPath="$PROJECT_DIR$/../framework/views/front/about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/views/front/contact.php" afterPath="$PROJECT_DIR$/../framework/views/front/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/views/front/home.php" afterPath="$PROJECT_DIR$/../framework/views/front/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../framework/views/front/profile.php" afterPath="$PROJECT_DIR$/../framework/views/front/profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../patterns/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/.idea/modules.xml" afterPath="$PROJECT_DIR$/../patterns/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/.idea/patterns.iml" afterPath="$PROJECT_DIR$/../patterns/.idea/patterns.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../patterns/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../patterns/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/adapter/EuroPaymentAdapter.php" afterPath="$PROJECT_DIR$/../patterns/adapter/EuroPaymentAdapter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/adapter/EuroPaymentApi.php" afterPath="$PROJECT_DIR$/../patterns/adapter/EuroPaymentApi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/adapter/GlobalPaymentApi.php" afterPath="$PROJECT_DIR$/../patterns/adapter/GlobalPaymentApi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/adapter/PaymentProvider.php" afterPath="$PROJECT_DIR$/../patterns/adapter/PaymentProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/adapter/SwissPayment.php" afterPath="$PROJECT_DIR$/../patterns/adapter/SwissPayment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/adapter/test.php" afterPath="$PROJECT_DIR$/../patterns/adapter/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/builder/AudiCarBuilder.php" afterPath="$PROJECT_DIR$/../patterns/builder/AudiCarBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/builder/BMWCarBuilder.php" afterPath="$PROJECT_DIR$/../patterns/builder/BMWCarBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/builder/Car.php" afterPath="$PROJECT_DIR$/../patterns/builder/Car.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/builder/CarBuilder.php" afterPath="$PROJECT_DIR$/../patterns/builder/CarBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/builder/CarFactory.php" afterPath="$PROJECT_DIR$/../patterns/builder/CarFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/builder/MercedesCarBuilder.php" afterPath="$PROJECT_DIR$/../patterns/builder/MercedesCarBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/builder/test.php" afterPath="$PROJECT_DIR$/../patterns/builder/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/command/Command.php" afterPath="$PROJECT_DIR$/../patterns/command/Command.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/command/JumpCommand.php" afterPath="$PROJECT_DIR$/../patterns/command/JumpCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/command/RemoteControl.php" afterPath="$PROJECT_DIR$/../patterns/command/RemoteControl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/command/Robot.php" afterPath="$PROJECT_DIR$/../patterns/command/Robot.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/command/RunCommand.php" afterPath="$PROJECT_DIR$/../patterns/command/RunCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/command/test.php" afterPath="$PROJECT_DIR$/../patterns/command/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/composer.json" afterPath="$PROJECT_DIR$/../patterns/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/decorator/ExamDecorator.php" afterPath="$PROJECT_DIR$/../patterns/decorator/ExamDecorator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/decorator/HistoryExam.php" afterPath="$PROJECT_DIR$/../patterns/decorator/HistoryExam.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/decorator/LawExam.php" afterPath="$PROJECT_DIR$/../patterns/decorator/LawExam.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/decorator/LawStudent.php" afterPath="$PROJECT_DIR$/../patterns/decorator/LawStudent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/decorator/MathExam.php" afterPath="$PROJECT_DIR$/../patterns/decorator/MathExam.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/decorator/Student.php" afterPath="$PROJECT_DIR$/../patterns/decorator/Student.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/decorator/test.php" afterPath="$PROJECT_DIR$/../patterns/decorator/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/factory/AppGenerator.php" afterPath="$PROJECT_DIR$/../patterns/factory/AppGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/factory/Application.php" afterPath="$PROJECT_DIR$/../patterns/factory/Application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/factory/Photocontest.php" afterPath="$PROJECT_DIR$/../patterns/factory/Photocontest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/factory/Puzzlematch.php" afterPath="$PROJECT_DIR$/../patterns/factory/Puzzlematch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/factory/Questionnaire.php" afterPath="$PROJECT_DIR$/../patterns/factory/Questionnaire.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/factory/test.php" afterPath="$PROJECT_DIR$/../patterns/factory/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/index.php" afterPath="$PROJECT_DIR$/../patterns/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/observer/Listener.php" afterPath="$PROJECT_DIR$/../patterns/observer/Listener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/observer/NewsChannel.php" afterPath="$PROJECT_DIR$/../patterns/observer/NewsChannel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/observer/RadioListener.php" afterPath="$PROJECT_DIR$/../patterns/observer/RadioListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/observer/test.php" afterPath="$PROJECT_DIR$/../patterns/observer/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/vendor/autoload.php" afterPath="$PROJECT_DIR$/../patterns/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/../patterns/vendor/composer/ClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/../patterns/vendor/composer/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/../patterns/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/../patterns/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/../patterns/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/../patterns/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/../patterns/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../patterns/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/../patterns/vendor/composer/installed.json" />
     </list>
     <ignored path="appbuilder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -314,31 +25,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="DefaultAppBuilder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
+            <state relative-caret-position="782">
+              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/create.php">
+      <file leaf-file-name="GalleryAppBuilder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/builders/GalleryAppBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="765">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppGenerator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/AppGenerator.php">
+      <file leaf-file-name="PuzzleAppBuilder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/builders/PuzzleAppBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
-              <caret line="99" column="42" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
+            <state relative-caret-position="731">
+              <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="51" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryAppBuilder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/builders/QueryAppBuilder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -347,40 +68,58 @@
       <file leaf-file-name="FbAppDeployer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/deployers/FbAppDeployer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4068">
-              <caret line="287" column="48" selection-start-line="287" selection-start-column="48" selection-end-line="287" selection-end-column="48" />
-              <caret line="165" column="48" selection-start-line="165" selection-start-column="48" selection-end-line="165" selection-end-column="48" />
-              <caret line="231" column="48" selection-start-line="231" selection-start-column="48" selection-end-line="231" selection-end-column="48" />
+            <state relative-caret-position="2397">
+              <caret line="146" column="1" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppDeployer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/deployers/AppDeployer.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1566">
-              <caret line="92" column="48" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+            <state relative-caret-position="153">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/applications/Application.php">
+      <file leaf-file-name="BuildSuccessCept.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/acceptance/BuildSuccessCept.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+            <state relative-caret-position="306">
+              <caret line="18" column="63" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="510">
+              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/deploy.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/config/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -416,9 +155,7 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/classes/factories/AppFactory.php" />
         <option value="$PROJECT_DIR$/classes/factories/FbAppFactory.php" />
-        <option value="$PROJECT_DIR$/classes/builders/PuzzleAppBuilder.php" />
-        <option value="$PROJECT_DIR$/classes/builders/QueryAppBuilder.php" />
-        <option value="$PROJECT_DIR$/classes/builders/GalleryAppBuilder.php" />
+        <option value="$PROJECT_DIR$/classes/applications/Application.php" />
         <option value="$PROJECT_DIR$/classes/builders/FbAppBuilder.php" />
         <option value="$PROJECT_DIR$/apps/default/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/apps/gallery/controllers/SiteController.php" />
@@ -429,22 +166,24 @@
         <option value="$PROJECT_DIR$/apps/default/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/apps/default/controllers/FacebookController.php" />
         <option value="$PROJECT_DIR$/apps/default/components/FacebookComponent.php" />
-        <option value="$PROJECT_DIR$/core/deploy.php" />
         <option value="$PROJECT_DIR$/finish.php" />
-        <option value="$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php" />
         <option value="$PROJECT_DIR$/classes/AppGenerator.php" />
+        <option value="$PROJECT_DIR$/create.php" />
+        <option value="$PROJECT_DIR$/classes/deployers/AppDeployer.php" />
         <option value="$PROJECT_DIR$/classes/applications/FbApplication.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/cacert.pem" />
         <option value="$PROJECT_DIR$/tests/acceptance.suite.yml" />
         <option value="$PROJECT_DIR$/tests/acceptance/WelcomeCept.php" />
         <option value="$PROJECT_DIR$/codeception.yml" />
         <option value="$PROJECT_DIR$/tests/acceptance/BuildFailureCept.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/create.php" />
-        <option value="$PROJECT_DIR$/classes/deployers/AppDeployer.php" />
-        <option value="$PROJECT_DIR$/classes/applications/Application.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/classes/deployers/FbAppDeployer.php" />
+        <option value="$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php" />
+        <option value="$PROJECT_DIR$/classes/builders/GalleryAppBuilder.php" />
+        <option value="$PROJECT_DIR$/classes/builders/PuzzleAppBuilder.php" />
+        <option value="$PROJECT_DIR$/classes/builders/QueryAppBuilder.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/core/deploy.php" />
       </list>
     </option>
   </component>
@@ -459,10 +198,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -489,7 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -518,7 +257,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -532,7 +271,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acceptance" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -546,21 +289,17 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cestitka" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -684,11 +423,14 @@
       <workItem from="1475699723706" duration="6024000" />
       <workItem from="1475740350385" duration="2768000" />
       <workItem from="1476265512637" duration="211000" />
-      <workItem from="1484992493203" duration="2140000" />
-      <workItem from="1484995013989" duration="1745000" />
-      <workItem from="1484996860613" duration="1765000" />
-      <workItem from="1484999462033" duration="4000" />
-      <workItem from="1485007729916" duration="135000" />
+      <workItem from="1481540668899" duration="1871000" />
+      <workItem from="1481543184283" duration="718000" />
+      <workItem from="1481549651061" duration="17000" />
+      <workItem from="1481641226809" duration="114000" />
+      <workItem from="1481641613596" duration="1294000" />
+      <workItem from="1481643947072" duration="650000" />
+      <workItem from="1481796300662" duration="1838000" />
+      <workItem from="1481798208607" duration="99000" />
     </task>
     <task id="LOCAL-00001" summary="appbuilder add in">
       <created>1474299034719</created>
@@ -921,23 +663,30 @@
       <option name="project" value="LOCAL" />
       <updated>1475745372115</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="builder migrations refactoring">
+      <created>1481643996066</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1481643996066</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151150000" />
+    <option name="totallyTimeSpent" value="151962000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18070363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32662538" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32694152" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -962,7 +711,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="builder testing test cases addon" />
     <MESSAGE value="builder test cases addon" />
     <MESSAGE value="builder refactoring" />
     <MESSAGE value="builder create.php refactoring" />
@@ -987,7 +735,8 @@
     <MESSAGE value="builder tests addon" />
     <MESSAGE value="builder acceptance test addon" />
     <MESSAGE value="builder acceptance failure test addon" />
-    <option name="LAST_COMMIT_MESSAGE" value="builder acceptance failure test addon" />
+    <MESSAGE value="builder migrations refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder migrations refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -996,14 +745,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/default/components/FacebookComponent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -1122,27 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/builders/GalleryAppBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="35" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/builders/PuzzleAppBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/builders/QueryAppBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/default/components/FacebookComponent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1186,17 +906,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/deploy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/builders/FbAppBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/AppGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/deployers/AppDeployer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3200">
+          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1207,22 +934,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cacert.pem" />
-    <entry file="file://$PROJECT_DIR$/_tests/default.php" />
-    <entry file="file://$PROJECT_DIR$/finish.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+        <state relative-caret-position="225">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_tests/default.php" />
     <entry file="file://$PROJECT_DIR$/tests/acceptance/_bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1244,22 +972,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/BuildSuccessCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/_output/failed" />
     <entry file="file://$PROJECT_DIR$/tests/_output/BuildFailureCept.fail.html" />
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/BuildFailureCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/applications/FbApplication.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1274,74 +988,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/factories/FbAppFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/AppGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="99" column="42" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/applications/Application.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        <state relative-caret-position="1037">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/factories/FbAppFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/BuildFailureCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/deployers/AppDeployer.php">
+    <entry file="file://$PROJECT_DIR$/core/config/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="92" column="48" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/deployers/FbAppDeployer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4068">
-          <caret line="287" column="48" selection-start-line="287" selection-start-column="48" selection-end-line="287" selection-end-column="48" />
-          <caret line="165" column="48" selection-start-line="165" selection-start-column="48" selection-end-line="165" selection-end-column="48" />
-          <caret line="231" column="48" selection-start-line="231" selection-start-column="48" selection-end-line="231" selection-end-column="48" />
+        <state relative-caret-position="2397">
+          <caret line="146" column="1" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/builders/DefaultAppBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/builders/GalleryAppBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/builders/PuzzleAppBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="51" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/builders/QueryAppBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="510">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/BuildSuccessCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/deploy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>

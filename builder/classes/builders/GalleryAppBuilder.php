@@ -25,35 +25,35 @@ class GalleryAppBuilder extends FbAppBuilder
     function buildModels()
     {
         $this->app->setModels([
-            'Poster', 'PosterSearch', 'Like'
+            'Poster.php', 'PosterSearch.php', 'Like.php'
         ]);
     }
 
     function buildControllers()
     {
         $this->app->setControllers([
-            'PosterController'
+            'PosterController.php'
         ]);
     }
     
     function buildComponents()
     {
         $this->app->setComponents([
-            'FacebookComponent'
+            'FacebookComponent.php'
         ]);
     }
 
     function buildMigrations()
     {
-        $this->app->setMigrations([
-            'poster', 'like'
-        ]);
+//        $this->app->setMigrations([
+//            'm160906_111235_poster.php', 'm160906_144443_like.php'
+//        ]);
     }
 
     function buildViews()
     {
         $this->app->setViews([
-            'poster'
+            'poster' // view folders only
         ]);
     }
 }
