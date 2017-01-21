@@ -123,12 +123,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "b021e7833c09227f42fd815b1a9786e6fd5305c1"
+                "reference": "0c5741a1b9b7b1ed75d0694bbf91ede5656be03b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/b021e7833c09227f42fd815b1a9786e6fd5305c1",
-                "reference": "b021e7833c09227f42fd815b1a9786e6fd5305c1",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/0c5741a1b9b7b1ed75d0694bbf91ede5656be03b",
+                "reference": "0c5741a1b9b7b1ed75d0694bbf91ede5656be03b",
                 "shasum": ""
             },
             "require": {
@@ -157,7 +157,7 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2016-10-05 19:36:01"
+            "time": "2016-10-28 14:27:40"
         },
         {
             "name": "illuminate/database",
@@ -165,12 +165,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "0e2fe3a06cb570ea938b28507109034ef35700b6"
+                "reference": "3c1ed9917f18560b2ee8a68d2be7fc337466ac82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/0e2fe3a06cb570ea938b28507109034ef35700b6",
-                "reference": "0e2fe3a06cb570ea938b28507109034ef35700b6",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/3c1ed9917f18560b2ee8a68d2be7fc337466ac82",
+                "reference": "3c1ed9917f18560b2ee8a68d2be7fc337466ac82",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "orm",
                 "sql"
             ],
-            "time": "2016-10-05 19:36:01"
+            "time": "2016-11-02 19:49:26"
         },
         {
             "name": "illuminate/support",
@@ -225,12 +225,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "7cc48a5a59ff651a886c44c2234df78cef493b7c"
+                "reference": "473d06f5dc46308b7d2cd50662e259463d45b383"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/7cc48a5a59ff651a886c44c2234df78cef493b7c",
-                "reference": "7cc48a5a59ff651a886c44c2234df78cef493b7c",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/473d06f5dc46308b7d2cd50662e259463d45b383",
+                "reference": "473d06f5dc46308b7d2cd50662e259463d45b383",
                 "shasum": ""
             },
             "require": {
@@ -274,7 +274,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2016-10-05 19:36:01"
+            "time": "2016-11-04 13:46:20"
         },
         {
             "name": "nesbot/carbon",
@@ -331,16 +331,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.2",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf"
+                "reference": "c0125896dbb151380ab47e96c621741e79623beb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/088c04e2f261c33bed6ca5245491cfca69195ccf",
-                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/c0125896dbb151380ab47e96c621741e79623beb",
+                "reference": "c0125896dbb151380ab47e96c621741e79623beb",
                 "shasum": ""
             },
             "require": {
@@ -375,7 +375,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-04-03 06:00:07"
+            "time": "2016-10-17 15:23:22"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -502,12 +502,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "460390765eb7bb9338a4a323b8a4e815a47541ba"
+                "reference": "2dd79eeb979603c32b72e3c941034cd329d52b09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/460390765eb7bb9338a4a323b8a4e815a47541ba",
-                "reference": "460390765eb7bb9338a4a323b8a4e815a47541ba",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/2dd79eeb979603c32b72e3c941034cd329d52b09",
+                "reference": "2dd79eeb979603c32b72e3c941034cd329d52b09",
                 "shasum": ""
             },
             "require": {
@@ -558,7 +558,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-21 17:16:56"
+            "time": "2016-11-03 08:11:03"
         }
     ],
     "packages-dev": [],

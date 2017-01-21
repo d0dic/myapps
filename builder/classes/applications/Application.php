@@ -50,7 +50,8 @@ abstract class Application
      */
     public function __construct($root)
     {
-        $this->root = 'apps/' . $root;
+        $builderRoot =  __DIR__.'/../../';
+        $this->root = $builderRoot.'apps/' . $root;
         $this->errors = [];
         $this->init();
     }

@@ -101,6 +101,10 @@ class FbAppDeployer extends AppDeployer
     {
         $destination .= '/config/';
 
+        if (!is_dir($destination)) {
+            mkdir($destination);
+        }
+
         $this->createDbFile($destination);
         $this->createConsoleFile($destination);
         $this->createParamsFile($destination);
@@ -116,7 +120,7 @@ class FbAppDeployer extends AppDeployer
         $destination .= 'db.php';
 
         $paramsFile = fopen($destination, "w")
-        or die("Unable to open file!");
+        or die("Unable to open file $destination! ");
 
         $contents = '<?php
 
@@ -159,7 +163,7 @@ if ($host == \'' . $_SERVER['HTTP_HOST'] . '\') {
         $destination .= 'console.php';
 
         $paramsFile = fopen($destination, "w")
-        or die("Unable to open file!");
+        or die("Unable to open file $destination!");
 
         $contents = '<?php
 
@@ -225,7 +229,7 @@ return $config;';
         $destination .= 'params.php';
 
         $paramsFile = fopen($destination, "w")
-        or die("Unable to open file!");
+        or die("Unable to open file $destination!");
 
         $contents = '<?php
 
@@ -281,7 +285,7 @@ return $params;';
         $destination .= 'web.php';
 
         $webFile = fopen($destination, "w")
-        or die("Unable to open file!");
+        or die("Unable to open file $destination!");
 
         $contents = '<?php
 

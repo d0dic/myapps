@@ -1,4 +1,3 @@
 # Created by .ignore support plugin (hsz.mobi)
-\_tests
-\vendor
 tests/_output/*
+\vendor

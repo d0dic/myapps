@@ -107,7 +107,8 @@ abstract class AppDeployer
                 if (is_dir($src . '/' . $file)) {
                     $this->copyFiles($src . '/' . $file, $dst . '/' . $file);
                 } else {
-                    copy($src . '/' . $file, $dst . '/' . $file);
+                    copy($src . '/' . $file, $dst . '/' . $file) or
+                    die($src . '/' . $file. 'cannot be processed. Check permissions!');
                 }
             }
         }
