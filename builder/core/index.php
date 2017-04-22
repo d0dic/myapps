@@ -19,6 +19,13 @@ function request(){
 }
 
 /**
+ * @return \app\components\FacebookComponent
+ */
+function facebook(){
+    return Yii::$app->facebook;
+}
+
+/**
  * @return null|\yii\web\IdentityInterface
  */
 function user(){
