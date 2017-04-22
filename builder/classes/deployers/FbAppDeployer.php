@@ -241,7 +241,8 @@ $params = [
 
     // application params
     \'app_name\'    => \'' . $this->application->appName . '\',
-    \'fbLogin_url\'  => "https://$host/' . $this->application->appFolder . '/site/login"
+    \'fbLogin_url\'  => "https://$host/' . $this->application->appFolder . '/site/login",
+    \'afterLoginMobile_url\'  => "https://$host/oetker_contest/site/home"
 ];
 
 // TODO Enter the necessary fb params
@@ -308,6 +309,9 @@ $config = [
         ],
         \'facebook\' => [
             \'class\' => \'app\components\FacebookComponent\'
+        ],
+        \'mobileDetect\' => [
+            \'class\' => \'skeeks\yii2\mobiledetect\MobileDetect\'
         ],
         \'errorHandler\' => [
             \'errorAction\' => \'site/error\',

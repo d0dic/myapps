@@ -162,4 +162,13 @@ class FacebookComponent extends Component
         return $access_token;
     }
 
+    /**
+     * @return SignedRequest
+     */
+    public function signedRequest()
+    {
+        $helper = $this->facebook->getPageTabHelper();
+        return $helper->getSignedRequest();
+    }
+
 }

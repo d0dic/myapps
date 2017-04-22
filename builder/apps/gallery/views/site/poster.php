@@ -12,7 +12,7 @@
         <a href="<?= \yii\helpers\Url::to(['site/preview', 'id' => $model->id]) ?>">
             <img src="<?= Yii::$app->request->baseUrl ?>/static/posters/<?= $model->image ?>"
                  alt="<?= $model->image ?>"></a>
-        <div class="caption">
+        <div class  ="caption">
             <h3><?= $model->name ?> <small>@<i><?= $model->owner->name ?></i></small></h3>
             <p class="text-right">
 

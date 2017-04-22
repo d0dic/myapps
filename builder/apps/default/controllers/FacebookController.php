@@ -40,8 +40,13 @@ abstract class FacebookController extends Controller
             Yii::$app->facebook->facebookLogin();
         }
 
-        echo '<script> window.top.location="'.
-            Yii::$app->params['afterLogin_url'].'"; </script>'; die;
+        if (Yii::$app->mobileDetect->isMobile()) {
+            echo '<script> window.top.location = "' .
+                Yii::$app->params['afterLo ginMobile_url'] . '";</script>'; die;
+        } else {
+            echo '<script> window.top.location="' .
+                Yii::$app->params['afterLogin_url'] . '"; </script>'; die;
+        }
     }
 
     /**
@@ -97,28 +102,19 @@ abstract class FacebookController extends Controller
         $text = 'Just to notify you that I am In ;)';
         $href = 'https://facebook.com';
 
-        $token = Yii::$app->facebook->getAppAccessToken();
-        $post_data = /*"access_token=".*/ $token ."&template={$text}&href={$href}";
+        $tokenData = json_decode(Yii::$app->facebook->getAppAccessToken());
+        $post_data = "template={$text}&href={$href}";
+
+        $url = "https://graph.facebook.com/v2.8/{$userId}/notifications?access_token={$tokenData->access_token}";
 
         $curl = curl_init();
 
-        curl_setopt($curl, CURLOPT_URL,
-            "https://graph.facebook.com/v2.6/". $userId ."/notifications");
+        curl_setopt($curl, CURLOPT_URL, $url);
         curl_setopt($curl, CURLOPT_POSTFIELDS, $post_data);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
-        $data = curl_exec($curl);
-
         curl_close($curl);
 
-        $response = json_decode($data);
-
-        if (!$response->success) {
-            throw new \yii\base\Exception('Notification failed!');
-        }
-
         return $this->redirect('index');
-
-        # var_dump($data);
     }
 }
