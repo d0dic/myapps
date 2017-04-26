@@ -34,7 +34,7 @@ class FacebookComponent extends Component
         $this->facebook = new Facebook([
             'app_id' => Yii::$app->params['fb_app_id'],
             'app_secret' => Yii::$app->params['fb_app_secret'],
-            'default_graph_version' => 'v2.6',
+            'default_graph_version' => 'v2.8',
         ]);
         parent::init();
     }

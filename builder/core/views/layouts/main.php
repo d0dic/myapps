@@ -31,7 +31,7 @@ AppAsset::register($this);
         FB.init({
             appId: <?= Yii::$app->params['fb_app_id'] ?>,
             cookie: true, xfbml: true, oauth: true,
-            version: 'v2.6'
+            version: 'v2.8'
 
         });
     };

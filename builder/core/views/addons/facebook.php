@@ -1,6 +1,7 @@
 <?php
 
 use yii\helpers\Url;
+use app\models\Invite;
 
 ?>
 
@@ -10,17 +11,17 @@ use yii\helpers\Url;
 
         FB.login(function (response) {
             if (response.authResponse) {
-                location.href = "<?= Url::to(['site/home']) ?>?code=" +
+                location.href = "<?= Url::to(['site/login']) ?>?code=" +
                     response.authResponse.accessToken;
-            } else {
-                console.log(response);
             }
-        }, {scope: "user_friends, email"});
+            console.log(response);
+        }, {scope: "email"});
     }
 
     function invite(friendIds) {
 
-        var invited = <?= \app\models\Invite::getInvited() ?>;
+        var invited = <?= Invite::getInvited() ?>;
+        var redirectUri = "<?= Yii::$app->params['afterLogin_url'] ?>";
 
         var requestObject = {
             type: 'inviteFriends'
@@ -29,6 +30,7 @@ use yii\helpers\Url;
         FB.ui({
             method: 'apprequests',
             type: 'request', to: friendIds,
+            redirect_uri: redirectUri,
             message: 'Poruka kojom pozivamo korisnika!',
             exclude_ids: invited,
             data: requestObject,
@@ -45,10 +47,12 @@ use yii\helpers\Url;
     function share() {
         FB.ui({
             method: 'feed',
+            name: 'Application name',
             caption: 'Facebook Applications for your purpose',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, ' +
+            'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             picture: 'https://learn.plus/wp-content/uploads/2015/01/coding-600x315.jpg',
-            link: 'https://www.codeit.rs'
+            link: 'site/game'
         }, function (response) {
             console.log(response);
         });
