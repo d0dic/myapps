@@ -7,7 +7,7 @@
  */
 
 set_time_limit(0);
-shell_exec('composer update');
+shell_exec('composer install');
 unlink('deploy.php');
 
 session_start();
