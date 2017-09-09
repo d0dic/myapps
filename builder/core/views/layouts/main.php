@@ -64,7 +64,8 @@ AppAsset::register($this);
             ['label' => 'Game', 'url' => ['/site/game']],
             ['label' => 'Rules', 'url' => ['/site/rules']],
             ['label' => 'Toplist', 'url' => ['/site/toplist']],
-            ['label' => 'Rewards', 'url' => ['/site/rewards']]
+            ['label' => 'Rewards', 'url' => ['/site/rewards']],
+            ['label' => 'Winners', 'url' => ['/site/winners']]
         ],
     ]);
     NavBar::end();
