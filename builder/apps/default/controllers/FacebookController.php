@@ -113,6 +113,8 @@ abstract class FacebookController extends Controller
         curl_setopt($curl, CURLOPT_POSTFIELDS, $post_data);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
+        $response = curl_exec($curl);
+
         curl_close($curl);
 
         return $this->redirect('index');

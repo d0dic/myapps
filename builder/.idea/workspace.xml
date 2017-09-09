@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2eb31b43-4057-498c-bae6-e82f87f0e3f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/views/addons/facebook.php" afterPath="$PROJECT_DIR$/core/views/addons/facebook.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/controllers/FacebookController.php" afterPath="$PROJECT_DIR$/apps/default/controllers/FacebookController.php" />
     </list>
     <ignored path="appbuilder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,12 +22,22 @@
     <favorites_list name="appbuilder" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="facebook.php" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="facebook.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/views/addons/facebook.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="54" column="45" lean-forward="false" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
+            <state relative-caret-position="83">
+              <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacebookController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/default/controllers/FacebookController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="114" column="8" lean-forward="false" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -80,7 +90,6 @@
         <option value="$PROJECT_DIR$/classes/builders/QueryAppBuilder.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/apps/gallery/views/site/poster.php" />
-        <option value="$PROJECT_DIR$/apps/default/controllers/FacebookController.php" />
         <option value="$PROJECT_DIR$/core/index.php" />
         <option value="$PROJECT_DIR$/apps/default/components/FacebookComponent.php" />
         <option value="$PROJECT_DIR$/core/runtime/.gitignore" />
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/classes/deployers/FbAppDeployer.php" />
         <option value="$PROJECT_DIR$/core/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/core/views/addons/facebook.php" />
+        <option value="$PROJECT_DIR$/apps/default/controllers/FacebookController.php" />
       </list>
     </option>
   </component>
@@ -141,6 +151,24 @@
             <path>
               <item name="builder" type="b2602c69:ProjectViewProjectNode" />
               <item name="builder" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="builder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="builder" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="builder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="builder" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="builder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="builder" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="builder" type="b2602c69:ProjectViewProjectNode" />
@@ -334,7 +362,8 @@
       <workItem from="1504974976742" duration="96000" />
       <workItem from="1504975126872" duration="265000" />
       <workItem from="1504975550850" duration="132000" />
-      <workItem from="1504976066028" duration="22000" />
+      <workItem from="1504976066028" duration="72000" />
+      <workItem from="1504976786432" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="appbuilder add in">
       <created>1474299034719</created>
@@ -644,17 +673,24 @@
       <option name="project" value="LOCAL" />
       <updated>1504975662439</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="builder -&gt; default share config fixed">
+      <created>1504976104948</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1504976104948</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163610000" />
+    <option name="totallyTimeSpent" value="163678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.212749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21593626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -688,7 +724,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="builder fb share model and migrations addon" />
     <MESSAGE value="builder gitignore addon" />
     <MESSAGE value="builder teste removal" />
     <MESSAGE value="builder tests ignore" />
@@ -713,7 +748,8 @@
     <MESSAGE value="builder -&gt; composer dependencies update" />
     <MESSAGE value="builder -&gt; swiftmailer default setup fixed" />
     <MESSAGE value="builder -&gt; winners page and action added to default app model" />
-    <option name="LAST_COMMIT_MESSAGE" value="builder -&gt; winners page and action added to default app model" />
+    <MESSAGE value="builder -&gt; default share config fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder -&gt; default share config fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -910,13 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/default/controllers/FacebookController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="102" column="39" lean-forward="false" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/default/components/FacebookComponent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1047,8 +1076,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/views/addons/facebook.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="54" column="45" lean-forward="false" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
+        <state relative-caret-position="83">
+          <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/default/controllers/FacebookController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="114" column="8" lean-forward="false" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
           <folding />
         </state>
       </provider>
