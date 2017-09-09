@@ -326,11 +326,13 @@ $config = [
             // \'useFileTransport\' to false and configure a transport
             // for the mailer to send real emails.
             \'useFileTransport\' => false,
-            \'host\' => \'smtp.gmail.com\',
-            \'username\' => \'epostar011\',
-            \'password\' => \'lozinka123\',
-            \'encryption\' => \'tls\',
-            \'port\' => \'587\',
+            \'transport\' => [
+                \'host\' => \'smtp.gmail.com\',
+                \'username\' => \'epostar011\',
+                \'password\' => \'lozinka123\',
+                \'encryption\' => \'tls\',
+                \'port\' => \'587\',
+            ]
         ],
         \'urlManager\' => [
             \'class\' => \'yii\web\UrlManager\',
