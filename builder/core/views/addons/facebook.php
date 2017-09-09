@@ -52,7 +52,7 @@ use app\models\Invite;
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, ' +
             'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             picture: 'https://learn.plus/wp-content/uploads/2015/01/coding-600x315.jpg',
-            link: 'site/game'
+            href: 'https://apps.facebook.com/'
         }, function (response) {
             console.log(response);
         });
