@@ -18,6 +18,6 @@ if (isset($_SERVER['HTTP_REFERER'])) {
         $_SERVER['HTTP_REFERER']);
 }
 
-header('Location: /builder/finish.php');
+header('Location: /finish.php');
 
 ?>

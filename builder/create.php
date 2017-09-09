@@ -22,7 +22,7 @@ $appGenerator->build($_POST['appType']);
 
 try{
     $appGenerator->loadParams($_POST);
-    $appGenerator->provide(__DIR__.'/../');
+    $appGenerator->provide('./builds/');
 } catch (Exception $exc){
 
     $_SESSION['message'] = $exc->getMessage();
@@ -32,5 +32,5 @@ try{
 $folder = $_POST['dbName'];
 $host = $_SERVER['HTTP_HOST'];
 
-$_SESSION['app_link'] = "http://$host/$folder";
+$_SESSION['app_link'] = "/builds/$folder";
 header("Location: finish.php");

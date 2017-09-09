@@ -77,8 +77,7 @@ class AppGenerator
                 $this->application->getErrors());
         }
 
-        $this->appDeployer =
-            new FbAppDeployer($this->application);
+        $this->appDeployer = new FbAppDeployer($this->application);
     }
 
     /**
