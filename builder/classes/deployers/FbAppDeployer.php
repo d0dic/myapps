@@ -231,7 +231,11 @@ return $config;';
 
         $contents = '<?php
 
-$host = $_SERVER[\'HTTP_HOST\'];
+$host = \'localhost:8080\';
+
+if (isset($_SERVER[\'HTTP_HOST\'])) {
+    $host = $_SERVER[\'HTTP_HOST\'];
+}
 
 // TODO Enter the necessary app params
 $params = [

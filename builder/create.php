@@ -12,6 +12,7 @@ use app\classes\AppGenerator;
 
 session_start();
 $_SESSION['deployed'] = false;
+$_SESSION['migrated'] = false;
 
 if (!$_POST) {
     header('Location: index.php');

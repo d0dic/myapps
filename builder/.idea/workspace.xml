@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb31b43-4057-498c-bae6-e82f87f0e3f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/migrate.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/AppGenerator.php" afterPath="$PROJECT_DIR$/classes/AppGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/deployers/AppDeployer.php" afterPath="$PROJECT_DIR$/classes/deployers/AppDeployer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/deployers/FbAppDeployer.php" afterPath="$PROJECT_DIR$/classes/deployers/FbAppDeployer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/deploy.php" afterPath="$PROJECT_DIR$/core/deploy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/runtime/.gitignore" afterPath="$PROJECT_DIR$/core/runtime/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create.php" afterPath="$PROJECT_DIR$/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finish.php" afterPath="$PROJECT_DIR$/finish.php" />
     </list>
     <ignored path="appbuilder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,31 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="create.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppGenerator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/AppGenerator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="79" column="41" lean-forward="false" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="finish.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="finish.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/finish.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="74" column="37" lean-forward="false" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+            <state relative-caret-position="302">
+              <caret line="73" column="30" lean-forward="false" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -61,8 +50,18 @@
       <file leaf-file-name="deploy.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/deploy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="136">
+              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="migrate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/migrate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -81,8 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/classes/GalleryAppBuilder.php" />
-        <option value="$PROJECT_DIR$/classes/FbApplication.php" />
         <option value="$PROJECT_DIR$/classes/FbAppDeployer.php" />
         <option value="$PROJECT_DIR$/classes/AppDeployer.php" />
         <option value="$PROJECT_DIR$/classes/PuzzleAppBuilder.php" />
@@ -106,7 +103,6 @@
         <option value="$PROJECT_DIR$/apps/query/controllers/QuestionController.php" />
         <option value="$PROJECT_DIR$/apps/default/models/User.php" />
         <option value="$PROJECT_DIR$/apps/default/controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/finish.php" />
         <option value="$PROJECT_DIR$/classes/applications/FbApplication.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/cacert.pem" />
@@ -121,7 +117,6 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/apps/gallery/views/site/poster.php" />
         <option value="$PROJECT_DIR$/apps/default/controllers/FacebookController.php" />
-        <option value="$PROJECT_DIR$/classes/deployers/FbAppDeployer.php" />
         <option value="$PROJECT_DIR$/core/index.php" />
         <option value="$PROJECT_DIR$/core/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/core/views/addons/facebook.php" />
@@ -129,9 +124,13 @@
         <option value="$PROJECT_DIR$/core/runtime/.gitignore" />
         <option value="$PROJECT_DIR$/classes/deployers/AppDeployer.php" />
         <option value="$PROJECT_DIR$/builds/.gitignore" />
-        <option value="$PROJECT_DIR$/core/deploy.php" />
         <option value="$PROJECT_DIR$/classes/AppGenerator.php" />
+        <option value="$PROJECT_DIR$/core/deploy.php" />
         <option value="$PROJECT_DIR$/create.php" />
+        <option value="$PROJECT_DIR$/core/migrate.php" />
+        <option value="$PROJECT_DIR$/builds/lego_stripic/config/params.php" />
+        <option value="$PROJECT_DIR$/classes/deployers/FbAppDeployer.php" />
+        <option value="$PROJECT_DIR$/finish.php" />
       </list>
     </option>
   </component>
@@ -169,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,22 +175,12 @@
               <item name="builder" type="b2602c69:ProjectViewProjectNode" />
               <item name="builder" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="builder" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="builds" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="builder" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="builds" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lego_stripic" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,6 +190,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="prop_add_unversioned_files" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -354,7 +343,8 @@
       <workItem from="1493237166231" duration="1222000" />
       <workItem from="1493238621962" duration="149000" />
       <workItem from="1504957711720" duration="1619000" />
-      <workItem from="1504959796808" duration="591000" />
+      <workItem from="1504959796808" duration="1773000" />
+      <workItem from="1504961638410" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="appbuilder add in">
       <created>1474299034719</created>
@@ -629,17 +619,24 @@
       <option name="project" value="LOCAL" />
       <updated>1493238082614</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="builder -&gt; builds dir added and creation flow refactored">
+      <created>1504960440530</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1504960440530</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161292000" />
+    <option name="totallyTimeSpent" value="162791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21513945" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19203188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -673,7 +670,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="builder composer fixes" />
     <MESSAGE value="builder holder js addon" />
     <MESSAGE value="builder namespaces refactoring" />
     <MESSAGE value="builder components addon" />
@@ -698,7 +694,8 @@
     <MESSAGE value="builder mobile-detect added" />
     <MESSAGE value="builder magic function facebook added" />
     <MESSAGE value="builder share and invite methods refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="builder share and invite methods refactored" />
+    <MESSAGE value="builder -&gt; builds dir added and creation flow refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder -&gt; builds dir added and creation flow refactored" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -707,33 +704,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/default/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://PHP/\app\models\User">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>PHP</ID>
-          <OriginalElement>\app\models\User</OriginalElement>
-          <nodes>
-            <node x="" y="">\app\models\User</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="42.0" y="24.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/default/models/Contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -947,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,19 +964,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finish.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="74" column="37" lean-forward="false" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/deployers/AppDeployer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1633">
           <caret line="111" column="20" lean-forward="false" selection-start-line="110" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,40 +979,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/deploy.php">
+    <entry file="file://$PROJECT_DIR$/builds/lego_stripic/config/params.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/AppGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="79" column="41" lean-forward="false" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="353">
+          <caret line="79" column="39" lean-forward="true" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/deployers/FbAppDeployer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="237" column="0" lean-forward="false" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
-          <folding>
-            <element signature="e#1057#1940#0#PHP" expanded="false" />
-            <element signature="e#1985#2325#0#PHP" expanded="false" />
-            <element signature="e#2381#2737#0#PHP" expanded="false" />
-            <element signature="e#2793#3887#0#PHP" expanded="false" />
-            <element signature="e#3943#5604#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="115">
+          <caret line="232" column="0" lean-forward="true" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/migrate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/deploy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="73" column="30" lean-forward="false" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
           <folding />
         </state>
       </provider>

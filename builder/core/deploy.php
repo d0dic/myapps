@@ -13,11 +13,6 @@ unlink('deploy.php');
 session_start();
 $_SESSION['deployed'] = true;
 
-if (isset($_SERVER['HTTP_REFERER'])) {
-    header('Location: ' .
-        $_SERVER['HTTP_REFERER']);
-}
-
 header('Location: /finish.php');
 
 ?>
