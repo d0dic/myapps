@@ -57,7 +57,7 @@ session_start();
             <div class="alert alert-danger">
                 <p><strong>Before</strong> you go to the link bellow you should open your <u>app folder</u> run cmd and
                     type
-                    <code>composer update</code> command, or click <a id="link" href="javascript:deploy()">here!</a></p>
+                    <code>composer install</code> command, or click <a id="link" href="javascript:deploy()">here!</a></p>
             </div>
         <?php endif; ?>
 
