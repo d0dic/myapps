@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb31b43-4057-498c-bae6-e82f87f0e3f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/migrate.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/deployers/FbAppDeployer.php" afterPath="$PROJECT_DIR$/classes/deployers/FbAppDeployer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/deploy.php" afterPath="$PROJECT_DIR$/core/deploy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create.php" afterPath="$PROJECT_DIR$/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finish.php" afterPath="$PROJECT_DIR$/finish.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/composer.json" afterPath="$PROJECT_DIR$/core/composer.json" />
     </list>
     <ignored path="appbuilder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +34,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="finish.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="finish.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/finish.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
+            <state relative-caret-position="1139">
               <caret line="73" column="30" lean-forward="false" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -80,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/classes/FbAppDeployer.php" />
         <option value="$PROJECT_DIR$/classes/AppDeployer.php" />
         <option value="$PROJECT_DIR$/classes/PuzzleAppBuilder.php" />
         <option value="$PROJECT_DIR$/classes/QueryAppBuilder.php" />
@@ -91,7 +107,6 @@
         <option value="$PROJECT_DIR$/tests/default.php" />
         <option value="$PROJECT_DIR$/classes/AppFactory.php" />
         <option value="$PROJECT_DIR$/classes/FbAppFactory.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/classes/factories/AppFactory.php" />
         <option value="$PROJECT_DIR$/classes/factories/FbAppFactory.php" />
         <option value="$PROJECT_DIR$/classes/applications/Application.php" />
@@ -131,6 +146,8 @@
         <option value="$PROJECT_DIR$/builds/lego_stripic/config/params.php" />
         <option value="$PROJECT_DIR$/classes/deployers/FbAppDeployer.php" />
         <option value="$PROJECT_DIR$/finish.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/core/composer.json" />
       </list>
     </option>
   </component>
@@ -175,6 +192,11 @@
               <item name="builder" type="b2602c69:ProjectViewProjectNode" />
               <item name="builder" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="builder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="builder" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -184,7 +206,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../freelance/lego_stripic" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -344,7 +366,9 @@
       <workItem from="1493238621962" duration="149000" />
       <workItem from="1504957711720" duration="1619000" />
       <workItem from="1504959796808" duration="1773000" />
-      <workItem from="1504961638410" duration="317000" />
+      <workItem from="1504961638410" duration="380000" />
+      <workItem from="1504973290642" duration="149000" />
+      <workItem from="1504974470655" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="appbuilder add in">
       <created>1474299034719</created>
@@ -626,17 +650,24 @@
       <option name="project" value="LOCAL" />
       <updated>1504960440530</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="builder -&gt; automated migration added to buiding flow">
+      <created>1504961998686</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1504961998686</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162791000" />
+    <option name="totallyTimeSpent" value="163044000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1303" height="780" extended-state="6" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19203188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19840637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -670,7 +701,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="builder holder js addon" />
     <MESSAGE value="builder namespaces refactoring" />
     <MESSAGE value="builder components addon" />
     <MESSAGE value="builder default app user managament addon" />
@@ -695,7 +725,8 @@
     <MESSAGE value="builder magic function facebook added" />
     <MESSAGE value="builder share and invite methods refactored" />
     <MESSAGE value="builder -&gt; builds dir added and creation flow refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="builder -&gt; builds dir added and creation flow refactored" />
+    <MESSAGE value="builder -&gt; automated migration added to buiding flow" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder -&gt; automated migration added to buiding flow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -704,13 +735,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/default/models/Contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/default/models/Invite.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -762,13 +786,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cacert.pem" />
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_tests/default.php" />
     <entry file="file://$PROJECT_DIR$/tests/acceptance/_bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1026,8 +1043,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/finish.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
+        <state relative-caret-position="1139">
           <caret line="73" column="30" lean-forward="false" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding />
         </state>
       </provider>

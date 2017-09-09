@@ -18,7 +18,6 @@
   "require": {
     "phpmailer/phpmailer": "^5.2",
     "codeception/codeception": "^2.2",
-    "skeeks/yii2-mobile-detect": "^1.0",
     "guzzlehttp/guzzle": "^6.2"
   }
 }
