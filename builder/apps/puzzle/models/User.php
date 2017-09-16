@@ -54,6 +54,27 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
     }
 
     /**
+     * @return bool|null|string
+     * @throws \Exception
+     */
+    public function getFriends()
+    {
+        $friendsList = null;
+
+        $accessToken = Yii::$app->facebook->getAppAccessToken();
+        $url = 'https://graph.facebook.com/v2.8/' . $this->id . '/friends?access_token=' . $accessToken;
+
+        try {
+            $friendsList = file_get_contents($url);
+        } catch (Exception $exc) {
+            throw $exc;
+        }
+
+        $friendsList = json_decode($friendsList);
+        return $friendsList->data;
+    }
+
+    /**
      * @inheritdoc
      */
     public function attributeLabels()

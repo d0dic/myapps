@@ -159,7 +159,8 @@ class FacebookComponent extends Component
             throw $exc;
         }
 
-        return $access_token;
+        $response = json_decode($access_token);
+        return $response->access_token;
     }
 
 }

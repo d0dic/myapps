@@ -74,6 +74,27 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
     }
 
     /**
+     * @return bool|null|string
+     * @throws \Exception
+     */
+    public function getFriends()
+    {
+        $friendsList = null;
+
+        $accessToken = Yii::$app->facebook->getAppAccessToken();
+        $url = 'https://graph.facebook.com/v2.8/' . $this->id . '/friends?access_token=' . $accessToken;
+
+        try {
+            $friendsList = file_get_contents($url);
+        } catch (Exception $exc) {
+            throw $exc;
+        }
+
+        $friendsList = json_decode($friendsList);
+        return $friendsList->data;
+    }
+
+    /**
      * Finds an identity by the given ID.
      * @param string|integer $id the ID to be looked for
      * @return IdentityInterface the identity object that matches the given ID.

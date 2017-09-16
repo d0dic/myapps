@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2eb31b43-4057-498c-bae6-e82f87f0e3f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/components/FacebookComponent.php" afterPath="$PROJECT_DIR$/apps/default/components/FacebookComponent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/default/models/User.php" afterPath="$PROJECT_DIR$/apps/default/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/components/FacebookComponent.php" afterPath="$PROJECT_DIR$/apps/gallery/components/FacebookComponent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/gallery/models/User.php" afterPath="$PROJECT_DIR$/apps/gallery/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/components/FacebookComponent.php" afterPath="$PROJECT_DIR$/apps/puzzle/components/FacebookComponent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/puzzle/models/User.php" afterPath="$PROJECT_DIR$/apps/puzzle/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/components/FacebookComponent.php" afterPath="$PROJECT_DIR$/apps/query/components/FacebookComponent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/query/models/User.php" afterPath="$PROJECT_DIR$/apps/query/models/User.php" />
     </list>
     <ignored path="appbuilder.iws" />
@@ -25,58 +29,7 @@
     <favorites_list name="appbuilder" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="FacebookComponent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/default/components/FacebookComponent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/gallery/models/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/puzzle/models/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/query/models/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/default/models/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -89,9 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/classes/Application.php" />
-        <option value="$PROJECT_DIR$/tests/gallery.php" />
-        <option value="$PROJECT_DIR$/tests/puzzle.php" />
         <option value="$PROJECT_DIR$/tests/query.php" />
         <option value="$PROJECT_DIR$/tests/default.php" />
         <option value="$PROJECT_DIR$/classes/AppFactory.php" />
@@ -120,7 +70,6 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/apps/gallery/views/site/poster.php" />
         <option value="$PROJECT_DIR$/core/index.php" />
-        <option value="$PROJECT_DIR$/apps/default/components/FacebookComponent.php" />
         <option value="$PROJECT_DIR$/core/runtime/.gitignore" />
         <option value="$PROJECT_DIR$/classes/deployers/AppDeployer.php" />
         <option value="$PROJECT_DIR$/builds/.gitignore" />
@@ -137,9 +86,13 @@
         <option value="$PROJECT_DIR$/core/views/addons/facebook.php" />
         <option value="$PROJECT_DIR$/apps/default/controllers/FacebookController.php" />
         <option value="$PROJECT_DIR$/apps/default/models/User.php" />
-        <option value="$PROJECT_DIR$/apps/gallery/models/User.php" />
-        <option value="$PROJECT_DIR$/apps/puzzle/models/User.php" />
         <option value="$PROJECT_DIR$/apps/query/models/User.php" />
+        <option value="$PROJECT_DIR$/apps/puzzle/models/User.php" />
+        <option value="$PROJECT_DIR$/apps/gallery/models/User.php" />
+        <option value="$PROJECT_DIR$/apps/default/components/FacebookComponent.php" />
+        <option value="$PROJECT_DIR$/apps/gallery/components/FacebookComponent.php" />
+        <option value="$PROJECT_DIR$/apps/puzzle/components/FacebookComponent.php" />
+        <option value="$PROJECT_DIR$/apps/query/components/FacebookComponent.php" />
       </list>
     </option>
   </component>
@@ -177,6 +130,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,30 +139,10 @@
               <item name="builder" type="b2602c69:ProjectViewProjectNode" />
               <item name="builder" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="builder" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="builder" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="query" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="builder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="builder" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="query" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,7 +315,8 @@
       <workItem from="1504976066028" duration="72000" />
       <workItem from="1504976786432" duration="66000" />
       <workItem from="1505053574293" duration="335000" />
-      <workItem from="1505549189234" duration="157000" />
+      <workItem from="1505549189234" duration="233000" />
+      <workItem from="1505555413096" duration="179000" />
     </task>
     <task id="LOCAL-00001" summary="appbuilder add in">
       <created>1474299034719</created>
@@ -704,17 +640,23 @@
       <option name="project" value="LOCAL" />
       <updated>1504976826339</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="builder -&gt; model User required fields fix">
+      <created>1505549380067</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1505549380067</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164218000" />
+    <option name="totallyTimeSpent" value="164473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22310758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22709164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -748,7 +690,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="builder teste removal" />
     <MESSAGE value="builder tests ignore" />
     <MESSAGE value="builder DefaultBuilder bugfix" />
     <MESSAGE value="builder create deployment on click addon" />
@@ -773,7 +714,8 @@
     <MESSAGE value="builder -&gt; winners page and action added to default app model" />
     <MESSAGE value="builder -&gt; default share config fixed" />
     <MESSAGE value="builder -&gt; push notifications method fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="builder -&gt; push notifications method fixed" />
+    <MESSAGE value="builder -&gt; model User required fields fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder -&gt; model User required fields fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -782,14 +724,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/default/migrations/m160927_150642_share.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cacert.pem" />
     <entry file="file://$PROJECT_DIR$/_tests/default.php" />
     <entry file="file://$PROJECT_DIR$/tests/acceptance/_bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1021,7 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,48 +1002,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/default/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/gallery/components/FacebookComponent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1734">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/default/components/FacebookComponent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/gallery/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/puzzle/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        <state relative-caret-position="17">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/query/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+        <state relative-caret-position="557">
+          <caret line="74" column="5" lean-forward="false" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/puzzle/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="74" column="5" lean-forward="false" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gallery/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="74" column="5" lean-forward="false" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/default/components/FacebookComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="159" column="9" lean-forward="true" selection-start-line="159" selection-start-column="9" selection-end-line="162" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gallery/components/FacebookComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="162" column="39" lean-forward="false" selection-start-line="162" selection-start-column="39" selection-end-line="162" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/puzzle/components/FacebookComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/query/components/FacebookComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="160" column="8" lean-forward="false" selection-start-line="160" selection-start-column="8" selection-end-line="160" selection-end-column="8" />
           <folding />
         </state>
       </provider>
